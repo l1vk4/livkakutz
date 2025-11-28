@@ -17,7 +17,7 @@ function cargarDatos() {
         })
         .then(data => {
             cargarGaleria(data.proyectos);
-            cargarNavegacion(data.navegacion);
+            // ELIMINADO: cargarNavegacion(data.navegacion);
         })
         .catch(error => {
             console.error('Error al cargar los datos:', error);
@@ -52,28 +52,7 @@ function cargarGaleria(proyectos) {
     });
 }
 
-// Función para cargar la navegación de proyectos
-function cargarNavegacion(navegacion) {
-    const navProjects = document.getElementById('nav-projects');
-    navProjects.innerHTML = ''; // Limpiar navegación
-    
-    navegacion.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item.nombre;
-        
-        li.addEventListener('click', function() {
-            console.log('Navegando a:', item.nombre);
-            // Aquí puedes agregar la navegación real
-            if (item.enlace) {
-                window.location.hash = item.enlace;
-            }
-        });
-        
-        navProjects.appendChild(li);
-    });
-}
-
-// Función de respaldo si no se puede cargar el JSON
+// Función de respaldo si no se puede cargar el JSON (SIN BIFLY)
 function cargarGaleriaDefault() {
     const gallery = document.getElementById('gallery');
     const imagenesDefault = [
