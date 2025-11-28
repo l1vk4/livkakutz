@@ -68,7 +68,7 @@
         ],
         "media": [
           { "tipo": "imagen", "src": "fotos/ultika.webp", "alt": "Ultika proyecto" },
-          { "tipo": "imagen", "src": "fotos/explicación.webp", "alt": "Explicación Ultika" },
+          { "tipo": "imagen", "src": "fotos/explicacion.webp", "alt": "Explicación Ultika" },
           { "tipo": "imagen", "src": "fotos/futuro.webp", "alt": "Aplicaciones futuras" }
         ],
         "nextProject": "proyecto-afiche.html"
@@ -186,41 +186,9 @@
           { "tipo": "imagen", "src": "fotos/Lanyard.webp", "alt": "Lanyard Cumplo" },
           { "tipo": "imagen", "src": "fotos/tarjetas.webp", "alt": "Tarjetas corporativas" }
         ],
-        "nextProject": "proyecto-bifly.html"
-      }
-    },
-    {
-      "id": 9,
-      "titulo": "Bifly",
-      "imagen": "fotos/banquito.webp",
-      "descripcion": "Banquito de tenso estructura",
-      "textoOverlay": "Bifly: banquito de tenso estructura",
-      "paginaUrl": "proyecto-bifly.html",
-      "detalles": {
-        "overview": "Bifly es un proyecto de diseño de mobiliario que explora las posibilidades estructurales de los sistemas tensados. Este banquito combina ingeniería y diseño para crear una pieza funcional y visualmente ligera.",
-        "especificaciones": [
-          "Diseño de mobiliario",
-          "Sistema de tenso estructura",
-          "Prototipado",
-          "Estudio de materiales",
-          "Documentación técnica"
-        ],
-        "media": [
-          { "tipo": "imagen", "src": "fotos/banquito.webp", "alt": "Bifly banquito" }
-        ],
         "nextProject": "proyecto-bioglow.html"
       }
     }
   ],
-  "navegacion": [
-    { "nombre": "BIOGLOW", "enlace": "#bioglow" },
-    { "nombre": "BRANDBOOK", "enlace": "#brandbook" },
-    { "nombre": "ULTIKA", "enlace": "#ultika" },
-    { "nombre": "AFICHE", "enlace": "#afiche" },
-    { "nombre": "SEACURE", "enlace": "#seacure" },
-    { "nombre": "NOKIA", "enlace": "#nokia" },
-    { "nombre": "TOTAL KITSCH", "enlace": "#totalkitsch" },
-    { "nombre": "LANYARD", "enlace": "#lanyard" },
-    { "nombre": "BIFLY", "enlace": "#bifly" }
-  ]
+  "navegacion": []
 }
