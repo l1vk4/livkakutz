@@ -1,0 +1,226 @@
+{
+  "proyectos": [
+    {
+      "id": 1,
+      "titulo": "Bioglow",
+      "imagen": "fotos/bioglow.webp",
+      "descripcion": "Biomaterial iridiscente",
+      "textoOverlay": "Bioglow: textil iridiscente",
+      "paginaUrl": "proyecto-bioglow.html",
+      "detalles": {
+        "overview": "Bioglow es un proyecto de diseño textil que explora materiales iridiscentes innovadores. Este biomaterial combina propiedades visuales únicas con sostenibilidad, creando textiles que responden a la luz de manera dinámica y cambiante.",
+        "especificaciones": [
+          "Desarrollo de biomaterial",
+          "Experimentación textil",
+          "Video publicitario",
+          "Identidad de marca",
+          "Fotografía de producto"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/bioglow.webp", "alt": "Bioglow proyecto" },
+          { "tipo": "imagen", "src": "fotos/muestrario.webp", "alt": "Muestrario Bioglow" },
+          { "tipo": "imagen", "src": "fotos/identidad.webp", "alt": "Identidad Bioglow" },
+          { "tipo": "video", "src": "fotos/bioglow.mp4", "alt": "Video Bioglow" }
+        ],
+        "nextProject": "proyecto-brandbook.html"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Brand Book",
+      "imagen": "fotos/brandbook.webp",
+      "descripcion": "Manual de identidad ClientMetrica",
+      "textoOverlay": "Brandbook Client Metrica",
+      "paginaUrl": "proyecto-brandbook.html",
+      "detalles": {
+        "overview": "Desarrollo completo del manual de identidad visual para Client Metrica. Este proyecto abarca desde la conceptualización de la marca hasta la implementación de un sistema de diseño cohesivo que refleja los valores y la visión de la empresa.",
+        "especificaciones": [
+          "Manual de identidad corporativa",
+          "Sistema de color y tipografía",
+          "Aplicaciones de marca",
+          "Guidelines de uso",
+          "Assets digitales e impresos"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/brandbook.webp", "alt": "Brandbook proyecto" },
+          { "tipo": "imagen", "src": "fotos/colores.webp", "alt": "Sistema de colores" },
+          { "tipo": "imagen", "src": "fotos/tipografia.webp", "alt": "Tipografía" },
+          { "tipo": "imagen", "src": "fotos/instagram.webp", "alt": "Aplicación Instagram" }
+        ],
+        "nextProject": "proyecto-ultika.html"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Ultika",
+      "imagen": "fotos/ultika.webp",
+      "descripcion": "Biomaterial aislante de energía",
+      "textoOverlay": "Ultika: biomaterial aislante",
+      "paginaUrl": "proyecto-ultika.html",
+      "detalles": {
+        "overview": "Ultika es un biomaterial innovador diseñado para funcionar como aislante de energía. Este proyecto explora las posibilidades de materiales sostenibles en aplicaciones técnicas, combinando diseño experimental con funcionalidad práctica.",
+        "especificaciones": [
+          "Desarrollo de biomaterial aislante",
+          "Pruebas de eficiencia energética",
+          "Prototipos especulativos",
+          "Documentación técnica",
+          "Presentación de resultados"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/ultika.webp", "alt": "Ultika proyecto" },
+          { "tipo": "imagen", "src": "fotos/explicación.webp", "alt": "Explicación Ultika" },
+          { "tipo": "imagen", "src": "fotos/futuro.webp", "alt": "Aplicaciones futuras" }
+        ],
+        "nextProject": "proyecto-afiche.html"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Afiche Tipográfico",
+      "imagen": "fotos/afiche.webp",
+      "descripcion": "Exploración tipográfica experimental",
+      "textoOverlay": "Afiche tipográfico",
+      "paginaUrl": "proyecto-afiche.html",
+      "detalles": {
+        "overview": "Proyecto de exploración tipográfica que desafía las convenciones tradicionales del diseño gráfico. Este afiche experimental busca crear una experiencia visual única a través de la composición y el uso innovador de la tipografía.",
+        "especificaciones": [
+          "Diseño tipográfico experimental",
+          "Composición visual",
+          "Impresión de alta calidad",
+          "Exploración de jerarquías"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/aficher.webp", "alt": "Afiche tipográfico" }
+        ],
+        "nextProject": "proyecto-seacure.html"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Seacure",
+      "imagen": "fotos/shelly.webp",
+      "descripcion": "Biomaterial packaging de segundo tipo",
+      "textoOverlay": "Seacure: packaging secundario",
+      "paginaUrl": "proyecto-seacure.html",
+      "detalles": {
+        "overview": "Seacure es un proyecto de packaging sostenible que utiliza biomateriales para crear soluciones de embalaje secundario. El proyecto explora alternativas ecológicas sin comprometer la protección y presentación del producto.",
+        "especificaciones": [
+          "Desarrollo de biomaterial para packaging",
+          "Diseño de packaging secundario",
+          "Moodboard conceptual",
+          "Mockups de producto",
+          "Pruebas de resistencia"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/shelly.webp", "alt": "Seacure proyecto" },
+          { "tipo": "imagen", "src": "fotos/moodboard.webp", "alt": "Moodboard Seacure" },
+          { "tipo": "imagen", "src": "fotos/mockup.webp", "alt": "Mockup Seacure" }
+        ],
+        "nextProject": "proyecto-nokia.html"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Nokia 2660 Flip Phone",
+      "imagen": "fotos/flip.webp",
+      "descripcion": "Modelado 3D",
+      "textoOverlay": "Nokia: modelado 3D",
+      "paginaUrl": "proyecto-nokia.html",
+      "detalles": {
+        "overview": "Proyecto de modelado 3D del Nokia 2660 Flip Phone. Este trabajo explora el diseño industrial a través de la recreación digital precisa del dispositivo, prestando especial atención a los detalles y proporciones del modelo original.",
+        "especificaciones": [
+          "Modelado 3D en Rhino",
+          "Renderizado en KeyShot",
+          "Estudios de proporción",
+          "Vistas técnicas",
+          "Presentación de producto"
+        ],
+        "media": [
+          { "tipo": "video", "src": "fotos/celular.mp4", "alt": "Video Nokia 3D" },
+          { "tipo": "imagen", "src": "fotos/espaciado.webp", "alt": "Espaciado Nokia" },
+          { "tipo": "imagen", "src": "fotos/vistas.webp", "alt": "Vistas técnicas Nokia" }
+        ],
+        "nextProject": "proyecto-totalkitsch.html"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Total Kitsch",
+      "imagen": "fotos/flotador.webp",
+      "descripcion": "Upcycling de flotador a tote bag",
+      "textoOverlay": "Total Kitsch: Upcycling de tote bag a partir de un flotador",
+      "paginaUrl": "proyecto-totalkitsch.html",
+      "detalles": {
+        "overview": "Total Kitsch es un proyecto de upcycling que transforma flotadores en desuso en bolsas tote bag únicas. Este proyecto celebra la estética kitsch mientras promueve la sostenibilidad y la reutilización creativa de materiales.",
+        "especificaciones": [
+          "Upcycling de materiales",
+          "Diseño de producto sostenible",
+          "Proceso de transformación",
+          "Fotografía de producto",
+          "Video documental"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/flotador.webp", "alt": "Flotador original" },
+          { "tipo": "imagen", "src": "fotos/bolso.webp", "alt": "Tote bag final" },
+          { "tipo": "video", "src": "fotos/winnie.mp4", "alt": "Proceso Total Kitsch" }
+        ],
+        "nextProject": "proyecto-lanyard.html"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Lanyard Cumplo",
+      "imagen": "fotos/lanyard.webp",
+      "descripcion": "Lanyard corporativo",
+      "textoOverlay": "Lanyard corporativo para Cumplo",
+      "paginaUrl": "proyecto-lanyard.html",
+      "detalles": {
+        "overview": "Diseño de lanyard corporativo para la empresa Cumplo. Este proyecto incluye el desarrollo de la identidad visual del lanyard y tarjetas complementarias, manteniendo coherencia con la marca corporativa.",
+        "especificaciones": [
+          "Diseño de lanyard corporativo",
+          "Sistema de tarjetas",
+          "Aplicación de identidad de marca",
+          "Producción y materiales"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/Lanyard.webp", "alt": "Lanyard Cumplo" },
+          { "tipo": "imagen", "src": "fotos/tarjetas.webp", "alt": "Tarjetas corporativas" }
+        ],
+        "nextProject": "proyecto-bifly.html"
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Bifly",
+      "imagen": "fotos/banquito.webp",
+      "descripcion": "Banquito de tenso estructura",
+      "textoOverlay": "Bifly: banquito de tenso estructura",
+      "paginaUrl": "proyecto-bifly.html",
+      "detalles": {
+        "overview": "Bifly es un proyecto de diseño de mobiliario que explora las posibilidades estructurales de los sistemas tensados. Este banquito combina ingeniería y diseño para crear una pieza funcional y visualmente ligera.",
+        "especificaciones": [
+          "Diseño de mobiliario",
+          "Sistema de tenso estructura",
+          "Prototipado",
+          "Estudio de materiales",
+          "Documentación técnica"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/banquito.webp", "alt": "Bifly banquito" }
+        ],
+        "nextProject": "proyecto-bioglow.html"
+      }
+    }
+  ],
+  "navegacion": [
+    { "nombre": "BIOGLOW", "enlace": "#bioglow" },
+    { "nombre": "BRANDBOOK", "enlace": "#brandbook" },
+    { "nombre": "ULTIKA", "enlace": "#ultika" },
+    { "nombre": "AFICHE", "enlace": "#afiche" },
+    { "nombre": "SEACURE", "enlace": "#seacure" },
+    { "nombre": "NOKIA", "enlace": "#nokia" },
+    { "nombre": "TOTAL KITSCH", "enlace": "#totalkitsch" },
+    { "nombre": "LANYARD", "enlace": "#lanyard" },
+    { "nombre": "BIFLY", "enlace": "#bifly" }
+  ]
+}
