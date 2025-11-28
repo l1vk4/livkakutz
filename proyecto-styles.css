@@ -166,7 +166,7 @@ video.project-image {
     color: #FFFFFF;
 }
 
-/* Responsive */
+/* RESPONSIVE - TABLET */
 @media (max-width: 1024px) {
     .project-container {
         grid-template-columns: 1fr;
@@ -175,5 +175,106 @@ video.project-image {
     .project-left {
         position: relative;
         height: auto;
+        padding: 40px 30px;
+    }
+
+    .project-right {
+        padding: 40px 30px;
+        gap: 30px;
+    }
+
+    .project-title {
+        font-size: 48px;
+        letter-spacing: 3px;
+    }
+}
+
+/* RESPONSIVE - MOBILE */
+@media (max-width: 768px) {
+    .project-left {
+        padding: 30px 20px;
+    }
+
+    .project-right {
+        padding: 30px 20px;
+        gap: 25px;
+    }
+
+    .project-title {
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .project-overview-title,
+    .project-deliverables-title {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+    }
+
+    .project-description {
+        font-size: 13px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    .project-deliverables {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .project-deliverables li {
+        margin-bottom: 6px;
+        padding-left: 18px;
+    }
+
+    .back-button,
+    .next-project-button {
+        font-size: 12px;
+        padding: 10px 25px;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .next-project-button {
+        align-self: center;
+    }
+}
+
+/* RESPONSIVE - SMALL MOBILE */
+@media (max-width: 480px) {
+    .project-left {
+        padding: 25px 15px;
+    }
+
+    .project-right {
+        padding: 25px 15px;
+        gap: 20px;
+    }
+
+    .project-title {
+        font-size: 32px;
+        letter-spacing: 1.5px;
+    }
+
+    .project-overview-title,
+    .project-deliverables-title {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .project-description {
+        font-size: 12px;
+    }
+
+    .project-deliverables {
+        font-size: 11px;
+    }
+
+    .back-button,
+    .next-project-button {
+        font-size: 11px;
+        padding: 10px 20px;
     }
 }
