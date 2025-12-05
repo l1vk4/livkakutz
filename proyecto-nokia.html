@@ -3,42 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nokia 2660 Flip Phone - Livka Kutz</title>
+    <title>Livka Kutz - Diseñadora Integral</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="proyecto-styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="project-container">
-        <div class="project-left">
-            <h1 class="project-title">NOKIA 2660 FLIP PHONE</h1>
-            
-            <h3 class="project-overview-title">Overview:</h3>
-            <p class="project-description">
-                Proyecto de modelado 3D del Nokia 2660 Flip Phone. Este trabajo explora el diseño industrial a través de la recreación digital precisa del dispositivo, prestando especial atención a los detalles y proporciones del modelo original.
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>LIVKA<br>KUTZ</h1>
+            <p class="subtitle">DISEÑADORA INTEGRAL</p>
+        </div>
+    </section>
+    <section class="sobre-mi">
+        <div class="sobre-mi-left">
+            <div class="sobre-mi-title">
+                <h2>SOBRE MI</h2>
+                <span class="star">★</span>
+            </div>
+            <img src="fotos/perfil.png" alt="Livka Kutz" class="profile-image">
+            <p class="sobre-mi-text">
+                Estudiante de Diseño Integral en la PUC, enfocada en combinar diversas áreas del diseño en propuestas conscientes y con propósito. Me motiva desarrollar proyectos que trascienden lo visual, incorporando funcionalidad y sostenibilidad. Destaco por mi compromiso, adaptabilidad y enfoque colaborativo, en cada proyecto. 
             </p>
-            
-            <h3 class="project-deliverables-title">Especificaciones:</h3>
-            <ul class="project-deliverables">
-                <li>Modelado 3D en Rhino</li>
-                <li>Renderizado en KeyShot</li>
-                <li>Estudios de proporción</li>
-                <li>Vistas técnicas</li>
-                <li>Presentación de producto</li>
-            </ul>
-            
-            <a href="index.html" class="back-button">back</a>
+            <div class="habilidades">
+                <h3>Habilidades técnicas</h3>
+                <div class="skills-icons">
+                    <img src="fotos/aplicaciones.webp" alt="Programas que manejo">
+                </div>
+                <p class="skills-text">
+                    Manejo avanzado de los programas de Adobe y un dominio amplio de Procreate en iPad. Además, cuento con habilidades en modelado 3D en aplicaciones como Rhino y KeyShot. Poseo conocimientos básicos en programación de desarrollo web, y un alto nivel de manejo en Figma.
+                </p>
+            </div>
         </div>
-        
-        <div class="project-right">
-            <video class="project-image" controls muted loop playsinline>
-                <source src="fotos/celular.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video>
-            <img src="fotos/espaciado.webp" alt="Espaciado Nokia" class="project-image">
-            <img src="fotos/vistas.webp" alt="Vistas técnicas Nokia" class="project-image">
-            
-            <a href="proyecto-totalkitsch.html" class="next-project-button">next project</a>
+        <div class="sobre-mi-right">
+            <div class="gallery-grid" id="gallery">
+                <!-- Las imágenes se cargarán dinámicamente desde datos.json -->
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="navigation-section">
+        <ul class="nav-projects" id="nav-projects">
+            <!-- Los proyectos se cargarán dinámicamente desde datos.json -->
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="https://www.linkedin.com/in/livka-kutz-303503342" target="_blank" rel="noopener noreferrer">LINKEDIN</a> | LIVKA.KUTZ@GMAIL.COM
+        </div>
+        <div class="footer-right">
+            Diseñado y desarrollado por Livka Kutz
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
