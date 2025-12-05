@@ -71,11 +71,37 @@
           { "tipo": "imagen", "src": "fotos/explicacion.webp", "alt": "Explicación Ultika" },
           { "tipo": "imagen", "src": "fotos/futuro.webp", "alt": "Aplicaciones futuras" }
         ],
-        "nextProject": "proyecto-afiche.html"
+        "nextProject": "proyecto-kaiko.html"
       }
     },
     {
       "id": 4,
+      "titulo": "Kaiko",
+      "imagen": "fotos/Kaiko.webp",
+      "descripcion": "Diseño textil sostenible",
+      "textoOverlay": "Kaiko: diseño textil sostenible",
+      "paginaUrl": "proyecto-kaiko.html",
+      "detalles": {
+        "overview": "Kaiko es un proyecto de diseño textil que explora la sostenibilidad a través de procesos innovadores. Este proyecto combina técnicas tradicionales con enfoques contemporáneos para crear textiles únicos con conciencia ambiental.",
+        "especificaciones": [
+          "Diseño textil sostenible",
+          "Experimentación con materiales",
+          "Desarrollo de producto",
+          "Fotografía de detalle",
+          "Documentación de proceso"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/kaiko.webp", "alt": "Kaiko proyecto" },
+          { "tipo": "imagen", "src": "fotos/total1.webp", "alt": "Kaiko vista 1" },
+          { "tipo": "imagen", "src": "fotos/total2.webp", "alt": "Kaiko vista 2" },
+          { "tipo": "imagen", "src": "fotos/detalle1.webp", "alt": "Detalle 1" },
+          { "tipo": "imagen", "src": "fotos/detalle2.webp", "alt": "Detalle 2" }
+        ],
+        "nextProject": "proyecto-afiche.html"
+      }
+    },
+    {
+      "id": 5,
       "titulo": "Afiche Tipográfico",
       "imagen": "fotos/afiche.webp",
       "descripcion": "Exploración tipográfica experimental",
@@ -96,7 +122,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "titulo": "Seacure",
       "imagen": "fotos/shelly.webp",
       "descripcion": "Biomaterial packaging de segundo tipo",
@@ -120,7 +146,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 7,
       "titulo": "Nokia 2660 Flip Phone",
       "imagen": "fotos/flip.webp",
       "descripcion": "Modelado 3D",
@@ -139,30 +165,6 @@
           { "tipo": "video", "src": "fotos/celular.mp4", "alt": "Video Nokia 3D" },
           { "tipo": "imagen", "src": "fotos/espaciado.webp", "alt": "Espaciado Nokia" },
           { "tipo": "imagen", "src": "fotos/vistas.webp", "alt": "Vistas técnicas Nokia" }
-        ],
-        "nextProject": "proyecto-totalkitsch.html"
-      }
-    },
-    {
-      "id": 7,
-      "titulo": "Total Kitsch",
-      "imagen": "fotos/flotador.webp",
-      "descripcion": "Upcycling de flotador a tote bag",
-      "textoOverlay": "Total Kitsch: Upcycling de tote bag a partir de un flotador",
-      "paginaUrl": "proyecto-totalkitsch.html",
-      "detalles": {
-        "overview": "Total Kitsch es un proyecto de upcycling que transforma flotadores en desuso en bolsas tote bag únicas. Este proyecto celebra la estética kitsch mientras promueve la sostenibilidad y la reutilización creativa de materiales.",
-        "especificaciones": [
-          "Upcycling de materiales",
-          "Diseño de producto sostenible",
-          "Proceso de transformación",
-          "Fotografía de producto",
-          "Video documental"
-        ],
-        "media": [
-          { "tipo": "imagen", "src": "fotos/flotador.webp", "alt": "Flotador original" },
-          { "tipo": "imagen", "src": "fotos/bolso.webp", "alt": "Tote bag final" },
-          { "tipo": "video", "src": "fotos/winnie.mp4", "alt": "Proceso Total Kitsch" }
         ],
         "nextProject": "proyecto-lanyard.html"
       }
