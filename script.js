@@ -17,7 +17,6 @@ function cargarDatos() {
         })
         .then(data => {
             cargarGaleria(data.proyectos);
-            // ELIMINADO: cargarNavegacion(data.navegacion);
         })
         .catch(error => {
             console.error('Error al cargar los datos:', error);
@@ -52,17 +51,17 @@ function cargarGaleria(proyectos) {
     });
 }
 
-// Función de respaldo si no se puede cargar el JSON (SIN BIFLY)
+// Función de respaldo si no se puede cargar el JSON
 function cargarGaleriaDefault() {
     const gallery = document.getElementById('gallery');
     const imagenesDefault = [
         { url: 'fotos/bioglow.webp', alt: 'Bioglow', texto: 'Bioglow: textil iridiscente', pagina: 'proyecto-bioglow.html' },
         { url: 'fotos/brandbook.webp', alt: 'Brand Book', texto: 'Brandbook Client Metrica', pagina: 'proyecto-brandbook.html' },
         { url: 'fotos/ultika.webp', alt: 'Ultika', texto: 'Ultika: biomaterial aislante', pagina: 'proyecto-ultika.html' },
+        { url: 'fotos/Kaiko.webp', alt: 'Kaiko', texto: 'Kaiko: diseño textil sostenible', pagina: 'proyecto-kaiko.html' },
         { url: 'fotos/afiche.webp', alt: 'Afiche', texto: 'Afiche tipográfico', pagina: 'proyecto-afiche.html' },
         { url: 'fotos/shelly.webp', alt: 'Seacure', texto: 'Seacure: packaging secundario', pagina: 'proyecto-seacure.html' },
-        { url: 'fotos/flip.webp', alt: 'Modelado 3D', texto: 'Nokia 2660 Flip Phone', pagina: 'proyecto-Nokia.html' },
-        { url: 'fotos/flotador.webp', alt: 'Total Kitsch', texto: 'Total Kitsch: Upcycling de tote bag a partir de un flotador', pagina: 'proyecto-totalkitsch.html'},
+        { url: 'fotos/flip.webp', alt: 'Modelado 3D', texto: 'Nokia: modelado 3D', pagina: 'proyecto-nokia.html' },
         { url: 'fotos/lanyard.webp', alt: 'Lanyard', texto: 'Lanyard corporativo para Cumplo', pagina: 'proyecto-lanyard.html' }
     ];
     
