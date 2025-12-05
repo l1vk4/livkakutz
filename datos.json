@@ -77,18 +77,17 @@
     {
       "id": 4,
       "titulo": "Kaiko",
-      "imagen": "fotos/Kaiko.webp",
-      "descripcion": "Diseño textil sostenible",
-      "textoOverlay": "Kaiko: diseño textil sostenible",
+      "imagen": "fotos/kaiko.webp",
+      "descripcion": "Diseño textil upcylcing",
+      "textoOverlay": "Kaiko: diseño textil upcycling",
       "paginaUrl": "proyecto-kaiko.html",
       "detalles": {
-        "overview": "Kaiko es un proyecto de diseño textil que explora la sostenibilidad a través de procesos innovadores. Este proyecto combina técnicas tradicionales con enfoques contemporáneos para crear textiles únicos con conciencia ambiental.",
+        "overview": "Kaiko es un proyecto de diseño textil a partir de upcycling de dos prendas iniciales. Se gneraron dos prendas a partir de un jeans y una chaqueta tipo trenchcoat.",
         "especificaciones": [
-          "Diseño textil sostenible",
-          "Experimentación con materiales",
+          "Upcycling",
+          "Diseño textil",
           "Desarrollo de producto",
-          "Fotografía de detalle",
-          "Documentación de proceso"
+          "Fotografía"
         ],
         "media": [
           { "tipo": "imagen", "src": "fotos/kaiko.webp", "alt": "Kaiko proyecto" },
