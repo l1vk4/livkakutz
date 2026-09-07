@@ -8,7 +8,7 @@
       "textoOverlay": "Órbita: alfabetización algorítmica",
       "paginaUrl": "proyecto-orbita.html",
       "detalles": {
-        "overview": "Órbita es una instalación museográfica interactiva que traduce el funcionamiento de los sistemas de recomendación musical en una experiencia corporal e inmersiva. Desarrollado como proyecto de título, integra investigación con usuarios, un marco de Inteligencia Artificial Explicable (XAI) y una metodología de Doble Diamante Invertido, validada a través de tres ciclos de prototipado y testeo con usuarios reales.",
+        "overview": "Órbita es una instalación museográfica interactiva que traduce el funcionamiento de los sistemas de recomendación musical en una experiencia corporal e inmersiva. Desarrollado como proyecto de título, integra investigación con usuarios y un marco de Inteligencia Artificial Explicable (XAI), y fue validado a través de tres ciclos de prototipado y testeo con usuarios reales.",
         "especificaciones": [
           "Investigación con usuarios y metodología Doble Diamante Invertido",
           "Diseño de interacción corporal y experiencia inmersiva",
@@ -110,7 +110,7 @@
       "textoOverlay": "Kaiko: diseño textil sostenible",
       "paginaUrl": "proyecto-kaiko.html",
       "detalles": {
-        "overview": "Kaiko es un proyecto de diseño textil que explora la sostenibilidad a través de procesos innovadores. Este proyecto combina técnicas tradicionales con enfoques contemporáneos para crear textiles únicos con conciencia ambiental.",
+        "overview": "Kaiko es un proyecto de upcycling textil que le da una segunda vida a prendas de ropa a través de procesos innovadores. Este proyecto combina técnicas tradicionales con enfoques contemporáneos para crear textiles únicos con conciencia ambiental.",
         "especificaciones": [
           "Diseño textil sostenible",
           "Experimentación con materiales",
