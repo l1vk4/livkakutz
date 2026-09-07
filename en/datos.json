@@ -1,0 +1,203 @@
+{
+  "proyectos": [
+    {
+      "id": 1,
+      "titulo": "Órbita",
+      "imagen": "../fotos/orbita.jpg",
+      "descripcion": "Interactive museographic installation on music recommendation systems",
+      "textoOverlay": "Órbita: algorithmic literacy",
+      "paginaUrl": "proyecto-orbita.html",
+      "detalles": {
+        "overview": "Órbita is an interactive museographic installation that translates how music recommendation systems work into an embodied, immersive experience. Developed as a thesis project, it integrates user research, an Explainable Artificial Intelligence (XAI) framework, and an Inverted Double Diamond methodology, validated through three cycles of prototyping and testing with real users.",
+        "especificaciones": [
+          "User research and Inverted Double Diamond methodology",
+          "Embodied interaction design and immersive experience",
+          "Iterative prototyping and testing",
+          "Explainable Artificial Intelligence (XAI) framework",
+          "Museographic design and installation setup",
+          "Visual system and graphic identity",
+          "Built using HTML, JSON and JS programming, and through TouchDesigner"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "../fotos/orbita.jpg", "alt": "Órbita installation" },
+          { "tipo": "imagen", "src": "../fotos/orbita-museografia.png", "alt": "Órbita museographic design" },
+          { "tipo": "imagen", "src": "../fotos/orbita-mapa-1.jpg", "alt": "Órbita music genre map" },
+          { "tipo": "imagen", "src": "../fotos/orbita-mapa-2.jpg", "alt": "Profile view on the Órbita map" },
+          { "tipo": "imagen", "src": "../fotos/orbita-logo.jpg", "alt": "Órbita graphic identity" }
+        ],
+        "nextProject": "proyecto-bioglow.html"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Bioglow",
+      "imagen": "../fotos/bioglow.webp",
+      "descripcion": "Iridescent biomaterial",
+      "textoOverlay": "Bioglow: iridescent textile",
+      "paginaUrl": "proyecto-bioglow.html",
+      "detalles": {
+        "overview": "Bioglow is a textile design project exploring innovative iridescent materials. This biomaterial combines unique visual properties with sustainability, creating textiles that respond to light in a dynamic, ever-changing way.",
+        "especificaciones": [
+          "Biomaterial development",
+          "Textile experimentation",
+          "Promotional video",
+          "Brand identity",
+          "Product photography"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "../fotos/bioglow.webp", "alt": "Bioglow project" },
+          { "tipo": "imagen", "src": "../fotos/muestrario.webp", "alt": "Bioglow sample book" },
+          { "tipo": "imagen", "src": "../fotos/identidad.webp", "alt": "Bioglow identity" },
+          { "tipo": "video", "src": "../fotos/bioglow.mp4", "alt": "Bioglow video" }
+        ],
+        "nextProject": "proyecto-brandbook.html"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Brand Book",
+      "imagen": "../fotos/brandbook.webp",
+      "descripcion": "ClientMetrica identity manual",
+      "textoOverlay": "Client Metrica Brandbook",
+      "paginaUrl": "proyecto-brandbook.html",
+      "detalles": {
+        "overview": "Complete development of the visual identity manual for Client Metrica. This project spans from brand conceptualization to the implementation of a cohesive design system that reflects the company's values and vision.",
+        "especificaciones": [
+          "Corporate identity manual",
+          "Color and typography system",
+          "Brand applications",
+          "Usage guidelines",
+          "Digital and print assets"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "../fotos/brandbook.webp", "alt": "Brandbook project" },
+          { "tipo": "imagen", "src": "../fotos/colores.webp", "alt": "Color system" },
+          { "tipo": "imagen", "src": "../fotos/tipografia.webp", "alt": "Typography" },
+          { "tipo": "imagen", "src": "../fotos/instagram.webp", "alt": "Instagram application" }
+        ],
+        "nextProject": "proyecto-ultika.html"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Ultika",
+      "imagen": "../fotos/ultika.webp",
+      "descripcion": "Energy-insulating biomaterial",
+      "textoOverlay": "Ultika: insulating biomaterial",
+      "paginaUrl": "proyecto-ultika.html",
+      "detalles": {
+        "overview": "Ultika is an innovative biomaterial designed to function as an energy insulator. This project explores the possibilities of sustainable materials in technical applications, combining experimental design with practical functionality.",
+        "especificaciones": [
+          "Insulating biomaterial development",
+          "Energy efficiency testing",
+          "Speculative prototypes",
+          "Technical documentation",
+          "Results presentation"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "../fotos/ultika.webp", "alt": "Ultika project" },
+          { "tipo": "imagen", "src": "../fotos/explicacion.webp", "alt": "Ultika explanation" },
+          { "tipo": "imagen", "src": "../fotos/futuro.webp", "alt": "Future applications" }
+        ],
+        "nextProject": "proyecto-kaiko.html"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Kaiko",
+      "imagen": "../fotos/kaiko.webp",
+      "descripcion": "Sustainable textile design",
+      "textoOverlay": "Kaiko: sustainable textile design",
+      "paginaUrl": "proyecto-kaiko.html",
+      "detalles": {
+        "overview": "Kaiko is a textile design project that explores sustainability through innovative processes. This project combines traditional techniques with contemporary approaches to create unique, environmentally conscious textiles.",
+        "especificaciones": [
+          "Sustainable textile design",
+          "Material experimentation",
+          "Product development",
+          "Detail photography",
+          "Process documentation"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "../fotos/kaiko.webp", "alt": "Kaiko project" },
+          { "tipo": "imagen", "src": "../fotos/total1.webp", "alt": "Kaiko view 1" },
+          { "tipo": "imagen", "src": "../fotos/total2.webp", "alt": "Kaiko view 2" },
+          { "tipo": "imagen", "src": "../fotos/detalle1.webp", "alt": "Detail 1" },
+          { "tipo": "imagen", "src": "../fotos/detalle2.webp", "alt": "Detail 2" }
+        ],
+        "nextProject": "proyecto-seacure.html"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Seacure",
+      "imagen": "../fotos/shelly.webp",
+      "descripcion": "Secondary packaging biomaterial",
+      "textoOverlay": "Seacure: secondary packaging",
+      "paginaUrl": "proyecto-seacure.html",
+      "detalles": {
+        "overview": "Seacure is a sustainable packaging project that uses biomaterials to create secondary packaging solutions. The project explores eco-friendly alternatives without compromising product protection and presentation.",
+        "especificaciones": [
+          "Biomaterial development for packaging",
+          "Secondary packaging design",
+          "Concept moodboard",
+          "Product mockups",
+          "Resistance testing"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "../fotos/shelly.webp", "alt": "Seacure project" },
+          { "tipo": "imagen", "src": "../fotos/moodboard.webp", "alt": "Seacure moodboard" },
+          { "tipo": "imagen", "src": "../fotos/mockup.webp", "alt": "Seacure mockup" }
+        ],
+        "nextProject": "proyecto-nokia.html"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Nokia 2660 Flip Phone",
+      "imagen": "../fotos/flip.webp",
+      "descripcion": "3D modeling",
+      "textoOverlay": "Nokia: 3D modeling",
+      "paginaUrl": "proyecto-nokia.html",
+      "detalles": {
+        "overview": "3D modeling project of the Nokia 2660 Flip Phone. This work explores industrial design through the precise digital recreation of the device, paying close attention to the details and proportions of the original model.",
+        "especificaciones": [
+          "3D modeling in Rhino",
+          "Rendering in KeyShot",
+          "Proportion studies",
+          "Technical views",
+          "Product presentation"
+        ],
+        "media": [
+          { "tipo": "video", "src": "../fotos/celular.mp4", "alt": "Nokia 3D video" },
+          { "tipo": "imagen", "src": "../fotos/espaciado.webp", "alt": "Nokia spacing" },
+          { "tipo": "imagen", "src": "../fotos/vistas.webp", "alt": "Nokia technical views" }
+        ],
+        "nextProject": "proyecto-lanyard.html"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Lanyard Cumplo",
+      "imagen": "../fotos/lanyard.webp",
+      "descripcion": "Corporate lanyard",
+      "textoOverlay": "Corporate lanyard for Cumplo",
+      "paginaUrl": "proyecto-lanyard.html",
+      "detalles": {
+        "overview": "Corporate lanyard design for the company Cumplo. This project includes the development of the visual identity for the lanyard and complementary cards, maintaining consistency with the corporate brand.",
+        "especificaciones": [
+          "Corporate lanyard design",
+          "Card system",
+          "Brand identity application",
+          "Production and materials"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "../fotos/lanyard.webp", "alt": "Lanyard Cumplo" },
+          { "tipo": "imagen", "src": "../fotos/tarjetas.webp", "alt": "Corporate cards" }
+        ],
+        "nextProject": "proyecto-orbita.html"
+      }
+    }
+  ],
+  "navegacion": []
+}
