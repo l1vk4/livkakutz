@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: #FFFFFF;
     color: #000000;
     overflow-x: hidden;
@@ -67,7 +67,7 @@ body {
 }
 
 .project-description {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     line-height: 1.8;
     color: #FFFFFF;
@@ -91,7 +91,7 @@ body {
 
 .project-deliverables {
     list-style: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 13px;
     line-height: 1.8;
     color: #FFFFFF;
@@ -114,7 +114,7 @@ body {
 /* Back Button */
 .back-button {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 13px;
     color: #FFFFFF;
     background-color: transparent;
@@ -163,7 +163,7 @@ video.project-image {
 /* Next Project Button */
 .next-project-button {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 13px;
     color: #000000;
     background-color: transparent;
