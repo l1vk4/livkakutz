@@ -38,8 +38,22 @@ body {
     color: #FF8FB3;
     letter-spacing: 4px;
     font-weight: 400;
-    margin-bottom: 30px;
     line-height: 1.1;
+}
+
+.project-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.project-title-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .project-overview-title {

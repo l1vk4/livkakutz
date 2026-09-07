@@ -55,11 +55,11 @@ function cargarGaleria(proyectos) {
 function cargarGaleriaDefault() {
     const gallery = document.getElementById('gallery');
     const imagenesDefault = [
+        { url: 'fotos/orbita.jpg', alt: 'Órbita', texto: 'Órbita: alfabetización algorítmica', pagina: 'proyecto-orbita.html' },
         { url: 'fotos/bioglow.webp', alt: 'Bioglow', texto: 'Bioglow: textil iridiscente', pagina: 'proyecto-bioglow.html' },
         { url: 'fotos/brandbook.webp', alt: 'Brand Book', texto: 'Brandbook Client Metrica', pagina: 'proyecto-brandbook.html' },
         { url: 'fotos/ultika.webp', alt: 'Ultika', texto: 'Ultika: biomaterial aislante', pagina: 'proyecto-ultika.html' },
-        { url: 'fotos/Kaiko.webp', alt: 'Kaiko', texto: 'Kaiko: diseño textil sostenible', pagina: 'proyecto-kaiko.html' },
-        { url: 'fotos/afiche.webp', alt: 'Afiche', texto: 'Afiche tipográfico', pagina: 'proyecto-afiche.html' },
+        { url: 'fotos/kaiko.webp', alt: 'Kaiko', texto: 'Kaiko: diseño textil sostenible', pagina: 'proyecto-kaiko.html' },
         { url: 'fotos/shelly.webp', alt: 'Seacure', texto: 'Seacure: packaging secundario', pagina: 'proyecto-seacure.html' },
         { url: 'fotos/flip.webp', alt: 'Modelado 3D', texto: 'Nokia: modelado 3D', pagina: 'proyecto-nokia.html' },
         { url: 'fotos/lanyard.webp', alt: 'Lanyard', texto: 'Lanyard corporativo para Cumplo', pagina: 'proyecto-lanyard.html' }

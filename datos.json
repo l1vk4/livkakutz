@@ -2,6 +2,34 @@
   "proyectos": [
     {
       "id": 1,
+      "titulo": "Órbita",
+      "imagen": "fotos/orbita.jpg",
+      "descripcion": "Instalación museográfica interactiva sobre sistemas de recomendación musical",
+      "textoOverlay": "Órbita: alfabetización algorítmica",
+      "paginaUrl": "proyecto-orbita.html",
+      "detalles": {
+        "overview": "Órbita es una instalación museográfica interactiva que traduce el funcionamiento de los sistemas de recomendación musical en una experiencia corporal e inmersiva. Desarrollado como proyecto de título, integra investigación con usuarios, un marco de Inteligencia Artificial Explicable (XAI) y una metodología de Doble Diamante Invertido, validada a través de tres ciclos de prototipado y testeo con usuarios reales.",
+        "especificaciones": [
+          "Investigación con usuarios y metodología Doble Diamante Invertido",
+          "Diseño de interacción corporal y experiencia inmersiva",
+          "Prototipado iterativo y testeo",
+          "Marco de Inteligencia Artificial Explicable (XAI)",
+          "Diseño museográfico y montaje de instalación",
+          "Sistema visual e identidad gráfica",
+          "Desarrollado mediante programación en HTML, JSON y JS, y a través de TouchDesigner"
+        ],
+        "media": [
+          { "tipo": "imagen", "src": "fotos/orbita.jpg", "alt": "Instalación Órbita" },
+          { "tipo": "imagen", "src": "fotos/orbita-museografia.png", "alt": "Diseño museográfico Órbita" },
+          { "tipo": "imagen", "src": "fotos/orbita-mapa-1.jpg", "alt": "Mapa de géneros musicales Órbita" },
+          { "tipo": "imagen", "src": "fotos/orbita-mapa-2.jpg", "alt": "Vista de perfil en el mapa Órbita" },
+          { "tipo": "imagen", "src": "fotos/orbita-logo.jpg", "alt": "Identidad gráfica Órbita" }
+        ],
+        "nextProject": "proyecto-bioglow.html"
+      }
+    },
+    {
+      "id": 2,
       "titulo": "Bioglow",
       "imagen": "fotos/bioglow.webp",
       "descripcion": "Biomaterial iridiscente",
@@ -26,7 +54,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "titulo": "Brand Book",
       "imagen": "fotos/brandbook.webp",
       "descripcion": "Manual de identidad ClientMetrica",
@@ -51,7 +79,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "titulo": "Ultika",
       "imagen": "fotos/ultika.webp",
       "descripcion": "Biomaterial aislante de energía",
@@ -75,19 +103,20 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "titulo": "Kaiko",
       "imagen": "fotos/kaiko.webp",
-      "descripcion": "Diseño textil upcylcing",
-      "textoOverlay": "Kaiko: diseño textil upcycling",
+      "descripcion": "Diseño textil sostenible",
+      "textoOverlay": "Kaiko: diseño textil sostenible",
       "paginaUrl": "proyecto-kaiko.html",
       "detalles": {
-        "overview": "Kaiko es un proyecto de diseño textil a partir de upcycling de dos prendas iniciales. Se gneraron dos prendas a partir de un jeans y una chaqueta tipo trenchcoat.",
+        "overview": "Kaiko es un proyecto de diseño textil que explora la sostenibilidad a través de procesos innovadores. Este proyecto combina técnicas tradicionales con enfoques contemporáneos para crear textiles únicos con conciencia ambiental.",
         "especificaciones": [
-          "Upcycling",
-          "Diseño textil",
+          "Diseño textil sostenible",
+          "Experimentación con materiales",
           "Desarrollo de producto",
-          "Fotografía"
+          "Fotografía de detalle",
+          "Documentación de proceso"
         ],
         "media": [
           { "tipo": "imagen", "src": "fotos/kaiko.webp", "alt": "Kaiko proyecto" },
@@ -95,27 +124,6 @@
           { "tipo": "imagen", "src": "fotos/total2.webp", "alt": "Kaiko vista 2" },
           { "tipo": "imagen", "src": "fotos/detalle1.webp", "alt": "Detalle 1" },
           { "tipo": "imagen", "src": "fotos/detalle2.webp", "alt": "Detalle 2" }
-        ],
-        "nextProject": "proyecto-afiche.html"
-      }
-    },
-    {
-      "id": 5,
-      "titulo": "Afiche Tipográfico",
-      "imagen": "fotos/afiche.webp",
-      "descripcion": "Exploración tipográfica experimental",
-      "textoOverlay": "Afiche tipográfico",
-      "paginaUrl": "proyecto-afiche.html",
-      "detalles": {
-        "overview": "Proyecto de exploración tipográfica que desafía las convenciones tradicionales del diseño gráfico. Este afiche experimental busca crear una experiencia visual única a través de la composición y el uso innovador de la tipografía.",
-        "especificaciones": [
-          "Diseño tipográfico experimental",
-          "Composición visual",
-          "Impresión de alta calidad",
-          "Exploración de jerarquías"
-        ],
-        "media": [
-          { "tipo": "imagen", "src": "fotos/aficher.webp", "alt": "Afiche tipográfico" }
         ],
         "nextProject": "proyecto-seacure.html"
       }
@@ -184,10 +192,10 @@
           "Producción y materiales"
         ],
         "media": [
-          { "tipo": "imagen", "src": "fotos/Lanyard.webp", "alt": "Lanyard Cumplo" },
+          { "tipo": "imagen", "src": "fotos/lanyard.webp", "alt": "Lanyard Cumplo" },
           { "tipo": "imagen", "src": "fotos/tarjetas.webp", "alt": "Tarjetas corporativas" }
         ],
-        "nextProject": "proyecto-bioglow.html"
+        "nextProject": "proyecto-orbita.html"
       }
     }
   ],
