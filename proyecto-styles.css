@@ -135,6 +135,25 @@ body {
     color: #FF8FB3;
 }
 
+/* External Link (e.g. full thesis document) */
+.project-external-link {
+    margin-top: 25px;
+}
+
+.project-external-link a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #FF8FB3;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.3s ease;
+}
+
+.project-external-link a:hover {
+    color: #FFFFFF;
+}
+
 /* Back Button */
 .back-button {
     display: inline-block;
