@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "Órbita",
-      "imagen": "../fotos/orbita.jpg",
+      "imagen": "../fotos/orbita-poster.png",
       "descripcion": "Interactive museographic installation on music recommendation systems",
       "textoOverlay": "Órbita: algorithmic literacy",
       "paginaUrl": "proyecto-orbita.html",
@@ -19,6 +19,7 @@
           "Built using HTML, JSON and JS programming, and through TouchDesigner"
         ],
         "media": [
+          { "tipo": "imagen", "src": "../fotos/orbita-poster.png", "alt": "Órbita poster" },
           { "tipo": "imagen", "src": "../fotos/orbita.jpg", "alt": "Órbita installation" },
           { "tipo": "imagen", "src": "../fotos/orbita-museografia.png", "alt": "Órbita museographic design" },
           { "tipo": "imagen", "src": "../fotos/orbita-mapa-1.jpg", "alt": "Órbita music genre map" },

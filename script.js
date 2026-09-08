@@ -55,7 +55,7 @@ function cargarGaleria(proyectos) {
 function cargarGaleriaDefault() {
     const gallery = document.getElementById('gallery');
     const imagenesDefault = [
-        { url: 'fotos/orbita.jpg', alt: 'Órbita', texto: 'Órbita: alfabetización algorítmica', pagina: 'proyecto-orbita.html' },
+        { url: 'fotos/orbita-poster.png', alt: 'Órbita', texto: 'Órbita: alfabetización algorítmica', pagina: 'proyecto-orbita.html' },
         { url: 'fotos/bioglow.webp', alt: 'Bioglow', texto: 'Bioglow: textil iridiscente', pagina: 'proyecto-bioglow.html' },
         { url: 'fotos/brandbook.webp', alt: 'Brand Book', texto: 'Brandbook Client Metrica', pagina: 'proyecto-brandbook.html' },
         { url: 'fotos/ultika.webp', alt: 'Ultika', texto: 'Ultika: biomaterial aislante', pagina: 'proyecto-ultika.html' },

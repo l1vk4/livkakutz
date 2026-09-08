@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "Órbita",
-      "imagen": "fotos/orbita.jpg",
+      "imagen": "fotos/orbita-poster.png",
       "descripcion": "Instalación museográfica interactiva sobre sistemas de recomendación musical",
       "textoOverlay": "Órbita: alfabetización algorítmica",
       "paginaUrl": "proyecto-orbita.html",
@@ -19,6 +19,7 @@
           "Desarrollado mediante programación en HTML, JSON y JS, y a través de TouchDesigner"
         ],
         "media": [
+          { "tipo": "imagen", "src": "fotos/orbita-poster.png", "alt": "Afiche Órbita" },
           { "tipo": "imagen", "src": "fotos/orbita.jpg", "alt": "Instalación Órbita" },
           { "tipo": "imagen", "src": "fotos/orbita-museografia.png", "alt": "Diseño museográfico Órbita" },
           { "tipo": "imagen", "src": "fotos/orbita-mapa-1.jpg", "alt": "Mapa de géneros musicales Órbita" },
