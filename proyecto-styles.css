@@ -137,21 +137,30 @@ body {
 
 /* External Link (e.g. full thesis document) */
 .project-external-link {
-    margin-top: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .project-external-link a {
+    display: inline-block;
     font-family: 'Work Sans', sans-serif;
     font-size: 13px;
-    font-weight: 400;
     color: #FF8FB3;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    transition: color 0.3s ease;
+    background-color: transparent;
+    border: 2px solid #FF8FB3;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
 }
 
 .project-external-link a:hover {
-    color: #FFFFFF;
+    background-color: #FF8FB3;
+    color: #000000;
 }
 
 /* Back Button */
@@ -292,7 +301,8 @@ video.project-image {
     }
 
     .back-button,
-    .next-project-button {
+    .next-project-button,
+    .project-external-link a {
         font-size: 12px;
         padding: 10px 25px;
         width: 100%;
@@ -335,7 +345,8 @@ video.project-image {
     }
 
     .back-button,
-    .next-project-button {
+    .next-project-button,
+    .project-external-link a {
         font-size: 11px;
         padding: 10px 20px;
     }
