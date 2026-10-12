@@ -1,60 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-base="../" data-datos="en/datos.json">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livka Kutz - Integral Designer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
+    <title>Livka Kutz — Integral Designer</title>
+    <script>if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('js');</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <a href="../index.html" class="lang-switch">ES</a>
+    <div class="cortina" aria-hidden="true"></div>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>LIVKA<br>KUTZ</h1>
-            <p class="subtitle">INTEGRAL DESIGNER</p>
-        </div>
-    </section>
-    <section class="sobre-mi">
-        <div class="sobre-mi-left">
-            <div class="sobre-mi-title">
-                <h2>ABOUT ME</h2>
-                <span class="star">★</span>
-            </div>
-            <img src="../fotos/perfil.png" alt="Livka Kutz" class="profile-image">
-            <p class="sobre-mi-text">
-                Integral Designer interested in exploring the intersections between design, technology, and sustainability. I'm motivated by creating meaningful experiences that connect people's needs with new ways of interacting and relating to their environment. I approach every project with curiosity and exploration, seeking new ways to make and think about&nbsp;design.
-            </p>
-            <div class="habilidades">
-                <h3>Technical Skills</h3>
-                <div class="skills-icons">
-                    <img src="../fotos/aplicaciones.webp" alt="Software I work with">
+    <header class="header meta">
+        <a href="index.html" class="logo">LK®</a>
+        <a href="../index.html" class="pill" lang="es" hreflang="es">ES</a>
+    </header>
+
+    <main>
+        <section class="hero" id="top">
+            <h1 class="hero__titulo" data-lineas-entrada>
+                <span class="linea"><span>Livka</span></span>
+                <span class="linea"><span>Kutz</span></span>
+            </h1>
+            <div class="hero__pie">
+                <p class="hero__rol serif">Integral designer</p>
+                <div class="hero__datos meta">
+                    <span>Design × Technology × Sustainability</span>
                 </div>
-                <p class="skills-text">
-                    Advanced proficiency in Adobe applications and strong command of Procreate on iPad. I also have 3D modeling skills in software such as Rhino and KeyShot. I have basic knowledge of web development programming, and an advanced level of&nbsp;Figma.
-                </p>
+            </div>
+        </section>
+
+        <div class="marquesina" aria-hidden="true">
+            <div class="marquesina__pista">
+                <span>User research ✶ Embodied interaction ✶ Biomaterials ✶ Brand identity ✶ 3D modeling ✶ Textile design ✶</span>
+                <span>User research ✶ Embodied interaction ✶ Biomaterials ✶ Brand identity ✶ 3D modeling ✶ Textile design ✶</span>
             </div>
         </div>
-        <div class="sobre-mi-right">
-            <div class="gallery-grid" id="gallery">
-                <!-- Projects load dynamically from datos.json -->
+
+        <section class="manifiesto" id="sobre-mi">
+            <div class="manifiesto__cabecera meta"><span>About me</span></div>
+            <div class="manifiesto__tesis">
+                <div class="tesis" data-reveal="fade">
+                    <span class="tesis__num">I.</span>
+                    <p class="tesis__texto">I explore the <em class="acento">intersections</em> between design, technology, and sustainability.</p>
+                </div>
+                <div class="tesis" data-reveal="fade">
+                    <span class="tesis__num">II.</span>
+                    <p class="tesis__texto">I create meaningful experiences that connect people's needs with <em>new ways</em> of interacting and relating to their environment.</p>
+                </div>
+                <div class="tesis" data-reveal="fade">
+                    <span class="tesis__num">III.</span>
+                    <p class="tesis__texto">I approach every project with <em class="acento">curiosity</em> and exploration.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="navigation-section">
-        <ul class="nav-projects" id="nav-projects">
-            <!-- Projects load dynamically from datos.json -->
-        </ul>
-    </section>
-    <footer class="footer">
-        <div class="footer-left">
-            <a href="https://www.linkedin.com/in/livka-kutz" target="_blank" rel="noopener noreferrer">LINKEDIN</a> | LIVKA.KUTZ@GMAIL.COM
-        </div>
-        <div class="footer-right">
-            Designed and developed by Livka Kutz
+        </section>
+
+        <section class="indice" id="indice">
+            <div class="indice__cabecera">
+                <h2 class="indice__titulo"><span class="linea"><span>Index</span></span></h2>
+            </div>
+            <ol class="indice__lista" id="indice-lista"></ol>
+        </section>
+    </main>
+
+    <footer class="contacto" id="contacto">
+        <span class="meta">Contact</span>
+        <a href="mailto:livka.kutz@gmail.com" class="contacto__grande">Let's <em>talk</em>↗</a>
+        <div class="contacto__pie meta">
+            <a href="https://www.linkedin.com/in/livka-kutz" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:livka.kutz@gmail.com">livka.kutz@gmail.com</a>
+            <span>Designed and developed by Livka Kutz</span>
         </div>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="../js/motion.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 </html>
