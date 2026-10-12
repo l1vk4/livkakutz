@@ -90,7 +90,7 @@ function renderIndice(proyectos) {
                 <span class="fila__num">(${dosDigitos(i + 1)})</span>
                 <span class="fila__titulo">${escapar(p.titulo)}</span>
                 <span class="fila__desc">${escapar(indiceDe(p))}</span>
-                <span class="fila__flecha" aria-hidden="true">↗</span>
+                <span class="fila__flecha" aria-hidden="true">↗\uFE0E</span>
             </a>
         </li>`).join('');
 }

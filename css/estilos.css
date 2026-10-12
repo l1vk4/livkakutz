@@ -301,3 +301,6 @@ html.js [data-reveal="desenfoque"] { opacity: 0; filter: blur(20px); }
 
 /* El brillo del título se recortaba con el overflow de .linea: se amplía la caja sin mover el texto */
 .titulo-brillo .linea { padding: 0.32em 0.3em; margin: -0.32em -0.3em; }
+
+/* Flecha del "Hablemos": SVG en vez del carácter ↗, que en iPhone/Android se dibuja como emoji */
+.flecha-grande { display: inline-block; width: 0.8em; height: 0.8em; margin-left: 0.06em; vertical-align: 0.02em; }
