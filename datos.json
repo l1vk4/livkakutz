@@ -19,18 +19,43 @@
           "Desarrollado mediante programación en HTML, JSON y JS, y a través de TouchDesigner"
         ],
         "media": [
-          { "tipo": "imagen", "src": "fotos/orbita-poster.png", "alt": "Afiche Órbita" },
-          { "tipo": "imagen", "src": "fotos/orbita.jpg", "alt": "Instalación Órbita" },
-          { "tipo": "imagen", "src": "fotos/orbita-museografia.png", "alt": "Diseño museográfico Órbita" },
-          { "tipo": "imagen", "src": "fotos/orbita-mapa-1.jpg", "alt": "Mapa de géneros musicales Órbita" },
-          { "tipo": "imagen", "src": "fotos/orbita-mapa-2.jpg", "alt": "Vista de perfil en el mapa Órbita" },
-          { "tipo": "imagen", "src": "fotos/orbita-logo.jpg", "alt": "Identidad gráfica Órbita" }
+          {
+            "tipo": "imagen",
+            "src": "fotos/orbita-poster.png",
+            "alt": "Afiche Órbita"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/orbita.jpg",
+            "alt": "Instalación Órbita"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/orbita-museografia.png",
+            "alt": "Diseño museográfico Órbita"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/orbita-mapa-1.jpg",
+            "alt": "Mapa de géneros musicales Órbita"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/orbita-mapa-2.jpg",
+            "alt": "Vista de perfil en el mapa Órbita"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/orbita-logo.jpg",
+            "alt": "Identidad gráfica Órbita"
+          }
         ],
         "nextProject": "proyecto-bioglow.html"
-      }
+      },
+      "esquinas": "rectas"
     },
     {
-      "id": 2,
+      "id": 4,
       "titulo": "Bioglow",
       "imagen": "fotos/bioglow.webp",
       "descripcion": "Biomaterial iridiscente",
@@ -46,41 +71,33 @@
           "Fotografía de producto"
         ],
         "media": [
-          { "tipo": "imagen", "src": "fotos/bioglow.webp", "alt": "Bioglow proyecto" },
-          { "tipo": "imagen", "src": "fotos/muestrario.webp", "alt": "Muestrario Bioglow" },
-          { "tipo": "imagen", "src": "fotos/identidad.webp", "alt": "Identidad Bioglow" },
-          { "tipo": "video", "src": "fotos/bioglow.mp4", "alt": "Video Bioglow" }
+          {
+            "tipo": "imagen",
+            "src": "fotos/bioglow.webp",
+            "alt": "Bioglow proyecto"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/muestrario.webp",
+            "alt": "Muestrario Bioglow"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/identidad.webp",
+            "alt": "Identidad Bioglow"
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/bioglow.mp4",
+            "alt": "Video Bioglow"
+          }
         ],
         "nextProject": "proyecto-brandbook.html"
-      }
+      },
+      "esquinas": "rectas"
     },
     {
-      "id": 3,
-      "titulo": "Brand Book",
-      "imagen": "fotos/brandbook.webp",
-      "descripcion": "Manual de identidad ClientMetrica",
-      "textoOverlay": "Brandbook Client Metrica",
-      "paginaUrl": "proyecto-brandbook.html",
-      "detalles": {
-        "overview": "Desarrollo completo del manual de identidad visual para Client Metrica. Este proyecto abarca desde la conceptualización de la marca hasta la implementación de un sistema de diseño cohesivo que refleja los valores y la visión de la empresa.",
-        "especificaciones": [
-          "Manual de identidad corporativa",
-          "Sistema de color y tipografía",
-          "Aplicaciones de marca",
-          "Guidelines de uso",
-          "Assets digitales e impresos"
-        ],
-        "media": [
-          { "tipo": "imagen", "src": "fotos/brandbook.webp", "alt": "Brandbook proyecto" },
-          { "tipo": "imagen", "src": "fotos/colores.webp", "alt": "Sistema de colores" },
-          { "tipo": "imagen", "src": "fotos/tipografia.webp", "alt": "Tipografía" },
-          { "tipo": "imagen", "src": "fotos/instagram.webp", "alt": "Aplicación Instagram" }
-        ],
-        "nextProject": "proyecto-ultika.html"
-      }
-    },
-    {
-      "id": 4,
+      "id": 8,
       "titulo": "Ultika",
       "imagen": "fotos/ultika.webp",
       "descripcion": "Biomaterial aislante de energía",
@@ -96,15 +113,28 @@
           "Presentación de resultados"
         ],
         "media": [
-          { "tipo": "imagen", "src": "fotos/ultika.webp", "alt": "Ultika proyecto" },
-          { "tipo": "imagen", "src": "fotos/explicacion.webp", "alt": "Explicación Ultika" },
-          { "tipo": "imagen", "src": "fotos/futuro.webp", "alt": "Aplicaciones futuras" }
+          {
+            "tipo": "imagen",
+            "src": "fotos/ultika.webp",
+            "alt": "Ultika proyecto"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/explicacion.webp",
+            "alt": "Explicación Ultika"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/futuro.webp",
+            "alt": "Aplicaciones futuras"
+          }
         ],
         "nextProject": "proyecto-kaiko.html"
-      }
+      },
+      "esquinas": "rectas"
     },
     {
-      "id": 5,
+      "id": 9,
       "titulo": "Kaiko",
       "imagen": "fotos/kaiko.webp",
       "descripcion": "Diseño textil sostenible",
@@ -120,41 +150,994 @@
           "Documentación de proceso"
         ],
         "media": [
-          { "tipo": "imagen", "src": "fotos/kaiko.webp", "alt": "Kaiko proyecto" },
-          { "tipo": "imagen", "src": "fotos/total1.webp", "alt": "Kaiko vista 1" },
-          { "tipo": "imagen", "src": "fotos/total2.webp", "alt": "Kaiko vista 2" },
-          { "tipo": "imagen", "src": "fotos/detalle1.webp", "alt": "Detalle 1" },
-          { "tipo": "imagen", "src": "fotos/detalle2.webp", "alt": "Detalle 2" }
+          {
+            "tipo": "imagen",
+            "src": "fotos/kaiko.webp",
+            "alt": "Kaiko proyecto"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/total1.webp",
+            "alt": "Kaiko vista 1"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/total2.webp",
+            "alt": "Kaiko vista 2"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/detalle1.webp",
+            "alt": "Detalle 1"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/detalle2.webp",
+            "alt": "Detalle 2"
+          }
         ],
         "nextProject": "proyecto-seacure.html"
+      },
+      "esquinas": "rectas"
+    },
+    {
+      "id": 2,
+      "titulo": "Clientmetrica",
+      "imagen": "fotos/brandbook.webp",
+      "descripcion": "Identidad de marca y sitio web",
+      "textoOverlay": "Clientmetrica",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Manual de identidad visual de Clientmetrica, empresa de analítica de datos y automatización con IA: logotipo, paleta de color primaria y secundaria, usos permitidos y no permitidos, y lineamientos de fotografía para sus piezas digitales. También diseñé y desarrollé su sitio web.",
+        "especificaciones": [
+          "Manual de identidad corporativa",
+          "Logotipo y paleta primaria y secundaria",
+          "Usos permitidos y no permitidos",
+          "Lineamientos de fotografía",
+          "Aplicación en redes sociales",
+          "Diseño y desarrollo del sitio web"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "fotos/brandbook.webp",
+            "alt": "Brand book",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/clientmetrica-marca.jpeg",
+            "alt": "Manual de marca Clientmetrica",
+            "w": 1600,
+            "h": 900
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/colores.webp",
+            "alt": "Sistema de colores",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/tipografia.webp",
+            "alt": "Tipografía",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/instagram.webp",
+            "alt": "Aplicación Instagram",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/clientmetrica-web-1.webp",
+            "alt": "Sitio web: inicio",
+            "w": 2000,
+            "h": 953
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/clientmetrica-web-2.webp",
+            "alt": "Sitio web: agentes de IA",
+            "w": 2000,
+            "h": 940
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/clientmetrica-web-3.webp",
+            "alt": "Sitio web: ciberseguridad",
+            "w": 2000,
+            "h": 987
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/clientmetrica-web-4.webp",
+            "alt": "Sitio web: catálogo de servicios",
+            "w": 2000,
+            "h": 986
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "mosaico": {
+        "columnas": 2,
+        "sinAncho": true
+      },
+      "fijo": {
+        "n": 2,
+        "items": [
+          [
+            0,
+            0,
+            1,
+            0.0
+          ],
+          [
+            1,
+            0,
+            1,
+            0.5343
+          ],
+          [
+            2,
+            1,
+            1,
+            0.5343
+          ],
+          [
+            3,
+            0,
+            1,
+            1.1177
+          ],
+          [
+            4,
+            1,
+            1,
+            1.652
+          ],
+          [
+            5,
+            0,
+            1,
+            2.1864
+          ],
+          [
+            6,
+            1,
+            1,
+            2.1864
+          ],
+          [
+            7,
+            0,
+            1,
+            2.6838
+          ],
+          [
+            8,
+            0,
+            1,
+            3.1982
+          ]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Microcine.tv",
+      "imagen": "fotos/microcine-hero.jpg",
+      "descripcion": "Redes sociales con ilustraciones",
+      "textoOverlay": "Microcine.tv",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Contenido para Instagram y TikTok de Microcine.tv, plataforma de cortometrajes. Diseñé a Michicine, la mascota, con su sistema de colores y expresiones, y la usé como hilo conductor de historias ilustradas, tutoriales y campañas de temporada.",
+        "especificaciones": [
+          "Diseño de personaje",
+          "Historia de origen de Michicine",
+          "Ilustración y diagramación de carruseles",
+          "Tutorial paso a paso de la plataforma",
+          "Campañas estacionales (Fiestas Patrias, vacaciones)"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-asi-1.webp",
+            "alt": "Así nació Michicine, lámina 1",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-asi-3.webp",
+            "alt": "Así nació Michicine, lámina 3",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/mc-reel-michicine.mp4",
+            "poster": "fotos/v/mc-reel-michicine.jpg",
+            "alt": "Reel de Michicine",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-asi-5.webp",
+            "alt": "Así nació Michicine, lámina 5",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-asi-7.webp",
+            "alt": "Así nació Michicine, lámina 7",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-tut-1.webp",
+            "alt": "Tutorial: presentación de Michicine",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-tut-2.webp",
+            "alt": "Tutorial: primer paso",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-tut-3.webp",
+            "alt": "Tutorial: segundo paso",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/mc-reel-evento.mp4",
+            "poster": "fotos/v/mc-reel-evento.jpg",
+            "alt": "Reel del evento de lanzamiento",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-tut-4.webp",
+            "alt": "Tutorial: tercer paso",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-cortos-1.webp",
+            "alt": "Recomendaciones de cortos gratis",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-cortos-2.webp",
+            "alt": "Cortos para ver gratis",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-camp-1.webp",
+            "alt": "Campaña de Fiestas Patrias",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-camp-2.webp",
+            "alt": "Campaña de Fiestas Patrias",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-camp-3.webp",
+            "alt": "Campaña de Fiestas Patrias",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/mc-conc-1.webp",
+            "alt": "Concurso dieciochero",
+            "w": 1080,
+            "h": 1350
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "fijo": {
+        "n": 4,
+        "items": [
+          [
+            0,
+            0,
+            1,
+            0.0
+          ],
+          [
+            1,
+            1,
+            1,
+            0.0
+          ],
+          [
+            2,
+            2,
+            1,
+            0.0
+          ],
+          [
+            3,
+            3,
+            1,
+            0.0
+          ],
+          [
+            4,
+            0,
+            1,
+            1.2927
+          ],
+          [
+            5,
+            3,
+            1,
+            1.2927
+          ],
+          [
+            6,
+            2,
+            1,
+            1.8201
+          ],
+          [
+            7,
+            3,
+            1,
+            2.5854
+          ],
+          [
+            8,
+            1,
+            1,
+            2.6067
+          ],
+          [
+            9,
+            0,
+            1,
+            4.0457
+          ],
+          [
+            11,
+            2,
+            1,
+            4.4055
+          ],
+          [
+            12,
+            1,
+            1,
+            4.4268
+          ],
+          [
+            13,
+            3,
+            1,
+            5.1707
+          ],
+          [
+            14,
+            0,
+            1,
+            5.3384
+          ],
+          [
+            15,
+            2,
+            1,
+            7.0122
+          ],
+          [
+            10,
+            1,
+            1,
+            5.7195
+          ]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Dactilar",
+      "imagen": "fotos/dactilar-web-1.webp",
+      "descripcion": "Logo, colores y página web",
+      "textoOverlay": "Dactilar",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Identidad de marca y sitio web de Dactilar, empresa de arquitectura y construcción. El isotipo une una casa con una huella dactilar, idea que se repite en su mensaje: diseñar, construir y dejar huella en cada proyecto.",
+        "especificaciones": [
+          "Logotipo e isotipo",
+          "Paleta de colores",
+          "Diseño de página web",
+          "Desarrollo web"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "fotos/dactilar-logo.png",
+            "alt": "Logo Dactilar"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/dactilar-web-1.webp",
+            "alt": "Página web: portada"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/dactilar-web-2.webp",
+            "alt": "Página web: proyectos destacados"
+          }
+        ]
+      },
+      "esquinas": "rectas"
+    },
+    {
+      "id": 7,
+      "titulo": "Cumplo",
+      "imagen": "fotos/cumplo-fotos.webp",
+      "descripcion": "Redes sociales y lanyard",
+      "textoOverlay": "Cumplo",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Trabajo para Cumplo, fintech: plan de comunicación en Instagram para Cumplo Perú (posts, historias semanales e historias para fechas clave) y diseño del lanyard corporativo con sus tarjetas, hecho para toda la empresa.",
+        "especificaciones": [
+          "Carruseles 1080 × 1080 para Cumplo Perú",
+          "Sistema de historias semanales 1080 × 1920",
+          "Historias para fechas clave",
+          "Lanyard corporativo y tarjetas para toda la empresa"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-car-1.webp",
+            "alt": "Carrusel de presentación",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-car-2.webp",
+            "alt": "Carrusel de presentación",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-foto-1.webp",
+            "alt": "Post con fotografía",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-foto-2.webp",
+            "alt": "Post con fotografía",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-texto-1.webp",
+            "alt": "Post de texto",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-texto-3.webp",
+            "alt": "Pupiletras",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-sem-1.webp",
+            "alt": "Historia del lunes",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-sem-3.webp",
+            "alt": "Historia del miércoles",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-sem-5.webp",
+            "alt": "Historia del viernes",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-fecha-1.webp",
+            "alt": "Historia de fin de mes",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-fecha-2.webp",
+            "alt": "Historia de pago de sueldos",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-fecha-3.webp",
+            "alt": "Historia para registrarse e invertir",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-lanyard.webp",
+            "alt": "Lanyard Cumplo",
+            "w": 1080,
+            "h": 555
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/cu-tarjetas.webp",
+            "alt": "Tarjetas corporativas",
+            "w": 1080,
+            "h": 555
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "fijo": {
+        "n": 4,
+        "items": [
+          [
+            0,
+            3,
+            1,
+            5.1829
+          ],
+          [
+            1,
+            1,
+            1,
+            0.0
+          ],
+          [
+            2,
+            2,
+            1,
+            0.0
+          ],
+          [
+            3,
+            3,
+            1,
+            0.0
+          ],
+          [
+            4,
+            0,
+            1,
+            1.0427
+          ],
+          [
+            5,
+            1,
+            1,
+            1.0427
+          ],
+          [
+            6,
+            3,
+            1,
+            1.0427
+          ],
+          [
+            7,
+            2,
+            1,
+            1.8902
+          ],
+          [
+            8,
+            1,
+            1,
+            2.0854
+          ],
+          [
+            9,
+            2,
+            1,
+            3.7104
+          ],
+          [
+            10,
+            0,
+            1,
+            3.8902
+          ],
+          [
+            11,
+            3,
+            1,
+            3.0488
+          ],
+          [
+            12,
+            0,
+            2,
+            5.7256
+          ],
+          [
+            13,
+            0,
+            2,
+            6.8201
+          ]
+        ]
       }
     },
     {
       "id": 6,
-      "titulo": "Seacure",
-      "imagen": "fotos/shelly.webp",
-      "descripcion": "Biomaterial packaging de segundo tipo",
-      "textoOverlay": "Seacure: packaging secundario",
-      "paginaUrl": "proyecto-seacure.html",
+      "titulo": "Pro Cine",
+      "imagen": "fotos/procine-logo-oscuro.jpg",
+      "descripcion": "Identidad de marca y redes sociales",
+      "textoOverlay": "Pro Cine",
+      "paginaUrl": "",
       "detalles": {
-        "overview": "Seacure es un proyecto de packaging sostenible que utiliza biomateriales para crear soluciones de embalaje secundario. El proyecto explora alternativas ecológicas sin comprometer la protección y presentación del producto.",
+        "overview": "Identidad y contenido para Pro Cine, productora audiovisual. Rediseñé el isotipo, definí la paleta por subáreas y construí el manual de marca; luego diseñé su contenido para Instagram y TikTok aplicando esa identidad.",
         "especificaciones": [
-          "Desarrollo de biomaterial para packaging",
-          "Diseño de packaging secundario",
-          "Moodboard conceptual",
-          "Mockups de producto",
-          "Pruebas de resistencia"
+          "Rediseño de isotipo",
+          "Manual de marca completo",
+          "Carruseles y posts para Instagram",
+          "Edición y portadas de reels"
         ],
         "media": [
-          { "tipo": "imagen", "src": "fotos/shelly.webp", "alt": "Seacure proyecto" },
-          { "tipo": "imagen", "src": "fotos/moodboard.webp", "alt": "Moodboard Seacure" },
-          { "tipo": "imagen", "src": "fotos/mockup.webp", "alt": "Mockup Seacure" }
-        ],
-        "nextProject": "proyecto-nokia.html"
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-logo-claro.webp",
+            "alt": "Logotipo, versión clara",
+            "w": 1393,
+            "h": 983
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-logo-oscuro.webp",
+            "alt": "Logotipo, versión oscura",
+            "w": 1393,
+            "h": 983
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-usos-1.webp",
+            "alt": "Usos permitidos",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-usos-2.webp",
+            "alt": "Usos no permitidos",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-color-1.webp",
+            "alt": "Colores primarios",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-color-2.webp",
+            "alt": "Color secundario",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-color-3.webp",
+            "alt": "Colores por área",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-tipo-1.webp",
+            "alt": "Tipografía de marca",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-tipo-2.webp",
+            "alt": "Tipografía de logotipo",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/pc-reel-logo.mp4",
+            "poster": "fotos/v/pc-reel-logo.jpg",
+            "alt": "Reel de presentación del nuevo logo",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/pc-reel-marcas.mp4",
+            "poster": "fotos/v/pc-reel-marcas.jpg",
+            "alt": "Reel: contenido de marcas",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-quienes-1.webp",
+            "alt": "Carrusel: quiénes somos",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-quienes-2.webp",
+            "alt": "Carrusel: quiénes somos",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-quienes-3.webp",
+            "alt": "Carrusel: quiénes somos",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-quienes-4.webp",
+            "alt": "Carrusel: quiénes somos",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/pc-reel-sonido.mp4",
+            "poster": "fotos/v/pc-reel-sonido.jpg",
+            "alt": "Reel: grabación de sonido",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/pc-reel-foto.mp4",
+            "poster": "fotos/v/pc-reel-foto.jpg",
+            "alt": "Reel: fotografía",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-peli-1.webp",
+            "alt": "Carrusel: películas que nos inspiran",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-peli-2.webp",
+            "alt": "Películas de los 90",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-peli-3.webp",
+            "alt": "Películas de los 90",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/p/pc-peli-6.webp",
+            "alt": "Películas de los 90",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/pc-reel-redes.mp4",
+            "poster": "fotos/v/pc-reel-redes.jpg",
+            "alt": "Reel: redes sociales",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "video",
+            "src": "fotos/v/pc-reel-publicidad.mp4",
+            "poster": "fotos/v/pc-reel-publicidad.jpg",
+            "alt": "Reel: videos publicitarios",
+            "w": 576,
+            "h": 1024
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "fijo": {
+        "n": 4,
+        "items": [
+          [
+            0,
+            0,
+            1,
+            0.0
+          ],
+          [
+            1,
+            1,
+            1,
+            0.0
+          ],
+          [
+            9,
+            2,
+            1,
+            2.6738
+          ],
+          [
+            10,
+            3,
+            1,
+            3.6067
+          ],
+          [
+            11,
+            1,
+            1,
+            3.6372
+          ],
+          [
+            12,
+            2,
+            1,
+            4.4939
+          ],
+          [
+            13,
+            0,
+            1,
+            4.9604
+          ],
+          [
+            14,
+            3,
+            1,
+            5.4268
+          ],
+          [
+            15,
+            2,
+            1,
+            5.7866
+          ],
+          [
+            16,
+            0,
+            1,
+            6.253
+          ],
+          [
+            17,
+            1,
+            1,
+            6.2835
+          ],
+          [
+            18,
+            1,
+            1,
+            7.5762
+          ],
+          [
+            19,
+            2,
+            1,
+            7.6067
+          ],
+          [
+            20,
+            3,
+            1,
+            8.247
+          ],
+          [
+            21,
+            1,
+            1,
+            8.8689
+          ],
+          [
+            2,
+            2,
+            1,
+            0.0
+          ],
+          [
+            3,
+            0,
+            1,
+            0.747
+          ],
+          [
+            4,
+            2,
+            1,
+            1.3384
+          ],
+          [
+            5,
+            0,
+            1,
+            2.0854
+          ],
+          [
+            6,
+            3,
+            1,
+            2.2713
+          ],
+          [
+            7,
+            1,
+            1,
+            2.2988
+          ],
+          [
+            8,
+            3,
+            1,
+            9.5396
+          ],
+          [
+            22,
+            0,
+            1,
+            8.0732
+          ]
+        ]
       }
     },
     {
-      "id": 7,
+      "id": 10,
       "titulo": "Nokia 2660 Flip Phone",
       "imagen": "fotos/flip.webp",
       "descripcion": "Modelado 3D",
@@ -170,34 +1153,25 @@
           "Presentación de producto"
         ],
         "media": [
-          { "tipo": "video", "src": "fotos/celular.mp4", "alt": "Video Nokia 3D" },
-          { "tipo": "imagen", "src": "fotos/espaciado.webp", "alt": "Espaciado Nokia" },
-          { "tipo": "imagen", "src": "fotos/vistas.webp", "alt": "Vistas técnicas Nokia" }
+          {
+            "tipo": "video",
+            "src": "fotos/celular.mp4",
+            "alt": "Video Nokia 3D"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/espaciado.webp",
+            "alt": "Espaciado Nokia"
+          },
+          {
+            "tipo": "imagen",
+            "src": "fotos/vistas.webp",
+            "alt": "Vistas técnicas Nokia"
+          }
         ],
         "nextProject": "proyecto-lanyard.html"
-      }
-    },
-    {
-      "id": 8,
-      "titulo": "Lanyard Cumplo",
-      "imagen": "fotos/lanyard.webp",
-      "descripcion": "Lanyard corporativo",
-      "textoOverlay": "Lanyard corporativo para Cumplo",
-      "paginaUrl": "proyecto-lanyard.html",
-      "detalles": {
-        "overview": "Diseño de lanyard corporativo para la empresa Cumplo. Este proyecto incluye el desarrollo de la identidad visual del lanyard y tarjetas complementarias, manteniendo coherencia con la marca corporativa.",
-        "especificaciones": [
-          "Diseño de lanyard corporativo",
-          "Sistema de tarjetas",
-          "Aplicación de identidad de marca",
-          "Producción y materiales"
-        ],
-        "media": [
-          { "tipo": "imagen", "src": "fotos/lanyard.webp", "alt": "Lanyard Cumplo" },
-          { "tipo": "imagen", "src": "fotos/tarjetas.webp", "alt": "Tarjetas corporativas" }
-        ],
-        "nextProject": "proyecto-orbita.html"
-      }
+      },
+      "esquinas": "rectas"
     }
   ],
   "navegacion": []

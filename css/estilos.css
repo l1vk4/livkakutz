@@ -275,6 +275,9 @@ html.js [data-reveal="desenfoque"] { opacity: 0; filter: blur(20px); }
 .siguiente { padding: 16vh 1vw 0; }
 .siguiente__boton { display: inline-flex; align-items: center; gap: 16px; min-height: 64px; padding: 20px 40px; border-radius: 999px; background: #FFFFFF; color: var(--negro); text-decoration: none; font-size: clamp(22px, 2.4vw, 36px); font-weight: 700; letter-spacing: -0.04em; transition: background .5s var(--ease-out), transform .8s var(--ease-out); }
 .siguiente__boton:hover { background: var(--senal); transform: translateX(8px); }
+.siguiente { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+.siguiente__volver { border: 1.5px solid #FFFFFF; border-radius: 999px; padding: 20px 32px; min-height: 64px; display: inline-flex; align-items: center; text-decoration: none; font-size: clamp(18px, 1.8vw, 26px); font-weight: 700; letter-spacing: -0.04em; transition: background .4s, color .4s; }
+.siguiente__volver:hover { background: #FFFFFF; color: #000000; }
 
 /* ---------- Movimiento reducido ---------- */
 @media (prefers-reduced-motion: reduce) {
@@ -304,3 +307,56 @@ html.js [data-reveal="desenfoque"] { opacity: 0; filter: blur(20px); }
 
 /* Flecha del "Hablemos": SVG en vez del carácter ↗, que en iPhone/Android se dibuja como emoji */
 .flecha-grande { display: inline-block; width: 0.8em; height: 0.8em; margin-left: 0.06em; vertical-align: 0.02em; }
+
+/* El brillo ampliaba la caja del título sobre el botón "Todo el trabajo" y se comía los clics */
+.caso__barra { position: relative; z-index: 3; }
+.caso .titulo-brillo .linea { pointer-events: none; }
+
+/* ---------- Secciones con aire ---------- */
+.seccion { padding: clamp(96px, 22vh, 240px) 1vw 0; }
+.seccion__cab { display: grid; grid-template-columns: 88px minmax(0, 1.1fr) minmax(0, 1fr); gap: 2vw; align-items: baseline; margin-bottom: clamp(48px, 10vh, 120px); }
+.seccion__num { color: #B5B5B5; }
+.seccion__titulo { margin: 0; font-size: clamp(36px, 5vw, 84px); font-weight: 700; letter-spacing: -0.045em; line-height: 0.95; }
+.seccion__texto { margin: 0; max-width: 46ch; font-size: clamp(17px, 1.4vw, 22px); line-height: 1.35; color: #D8D8D8; }
+.post { margin: 0; min-width: 0; }
+.post img { display: block; width: 100%; height: auto; }
+.post figcaption { margin-top: 14px; color: #B5B5B5; font-family: var(--f-mono); font-size: 12px; text-transform: uppercase; display: flex; gap: 12px; }
+.post figcaption span { color: var(--senal); }
+.cols { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: clamp(40px, 7vw, 140px); row-gap: clamp(72px, 16vh, 180px); align-items: start; padding-inline: clamp(0px, 4vw, 80px); }
+.cols .post:nth-child(even) { margin-top: clamp(40px, 12vh, 140px); }
+.cols[style*="--cols:3"] .post:nth-child(even) { margin-top: clamp(40px, 12vh, 140px); }
+.cols[style*="--cols:2"] { padding-inline: clamp(0px, 10vw, 220px); }
+.riel__pista { display: flex; gap: clamp(40px, 6vw, 110px); overflow-x: auto; scroll-snap-type: x proximity; padding: 0 4vw 28px 1vw; scrollbar-width: thin; scrollbar-color: #555 transparent; }
+.riel__pista .post { flex: 0 0 auto; scroll-snap-align: start; }
+.riel__pista .post img { width: auto; height: min(66vh, 620px); }
+.riel__ctrl { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; padding: 0 1vw; color: #B5B5B5; }
+.riel__botones { display: inline-flex; gap: 10px; }
+.riel__botones button { width: 48px; height: 48px; border-radius: 999px; border: 1.5px solid #FFFFFF; background: transparent; color: #FFFFFF; font-size: 18px; cursor: pointer; transition: background .4s, color .4s; }
+.riel__botones button:hover { background: #FFFFFF; color: #000000; }
+@media (max-width: 760px) {
+    .seccion__cab { grid-template-columns: 1fr; gap: 14px; }
+    .cols { grid-template-columns: minmax(0, 1fr); padding-inline: 0 !important; }
+    .cols .post:nth-child(even) { margin-top: 0 !important; }
+    .riel__pista .post img { height: min(56vh, 460px); }
+}
+
+/* Galería con más aire: misma diagramación que Kaiko y Órbita, con espacio entre piezas */
+.galeria--aire { gap: clamp(56px, 12vh, 140px); }
+.galeria--aire .galeria__fila { gap: clamp(28px, 5vw, 80px); }
+.galeria--aire figcaption { margin-top: 16px; }
+.galeria video { display: block; width: 100%; height: auto; background: #161616; }
+
+/* ---------- Mosaico (estilo Studio Feixen) ----------
+   Piezas una tras otra, con esquinas rectas, cada una con su propia proporción.
+   Algunos huecos quedan vacíos a propósito: no se dibuja nada en ellos. */
+.mosaico { position: relative; width: 100%; --gap: clamp(8px, 1vw, 14px); }
+.mosaico__item { position: absolute; margin: 0; overflow: hidden; border-radius: 0; background: none; }
+.mosaico__item img, .mosaico__item video { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 0; }
+
+/* Reel a pantalla completa: se ve entero y vertical, no recortado para llenar el ancho */
+.galeria video { object-fit: contain; }
+.galeria video:fullscreen { object-fit: contain !important; width: 100%; height: 100%; aspect-ratio: auto; background: #000; }
+.galeria video:-webkit-full-screen { object-fit: contain !important; width: 100%; height: 100%; aspect-ratio: auto; background: #000; }
+
+/* Esquinas rectas en la galería (Órbita) */
+.galeria--recta .pieza { border-radius: 0; }

@@ -19,18 +19,43 @@
           "Built using HTML, JSON and JS programming, and through TouchDesigner"
         ],
         "media": [
-          { "tipo": "imagen", "src": "../fotos/orbita-poster.png", "alt": "Órbita poster" },
-          { "tipo": "imagen", "src": "../fotos/orbita.jpg", "alt": "Órbita installation" },
-          { "tipo": "imagen", "src": "../fotos/orbita-museografia.png", "alt": "Órbita museographic design" },
-          { "tipo": "imagen", "src": "../fotos/orbita-mapa-1.jpg", "alt": "Órbita music genre map" },
-          { "tipo": "imagen", "src": "../fotos/orbita-mapa-2.jpg", "alt": "Profile view on the Órbita map" },
-          { "tipo": "imagen", "src": "../fotos/orbita-logo.jpg", "alt": "Órbita graphic identity" }
+          {
+            "tipo": "imagen",
+            "src": "../fotos/orbita-poster.png",
+            "alt": "Órbita poster"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/orbita.jpg",
+            "alt": "Órbita installation"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/orbita-museografia.png",
+            "alt": "Órbita museographic design"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/orbita-mapa-1.jpg",
+            "alt": "Órbita music genre map"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/orbita-mapa-2.jpg",
+            "alt": "Profile view on the Órbita map"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/orbita-logo.jpg",
+            "alt": "Órbita graphic identity"
+          }
         ],
-        "nextProject": "proyecto-bioglow.html"
-      }
+        "nextProject": ""
+      },
+      "esquinas": "rectas"
     },
     {
-      "id": 2,
+      "id": 4,
       "titulo": "Bioglow",
       "imagen": "../fotos/bioglow.webp",
       "descripcion": "Iridescent biomaterial",
@@ -46,41 +71,33 @@
           "Product photography"
         ],
         "media": [
-          { "tipo": "imagen", "src": "../fotos/bioglow.webp", "alt": "Bioglow project" },
-          { "tipo": "imagen", "src": "../fotos/muestrario.webp", "alt": "Bioglow sample book" },
-          { "tipo": "imagen", "src": "../fotos/identidad.webp", "alt": "Bioglow identity" },
-          { "tipo": "video", "src": "../fotos/bioglow.mp4", "alt": "Bioglow video" }
+          {
+            "tipo": "imagen",
+            "src": "../fotos/bioglow.webp",
+            "alt": "Bioglow project"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/muestrario.webp",
+            "alt": "Bioglow sample book"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/identidad.webp",
+            "alt": "Bioglow identity"
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/bioglow.mp4",
+            "alt": "Bioglow video"
+          }
         ],
-        "nextProject": "proyecto-brandbook.html"
-      }
+        "nextProject": ""
+      },
+      "esquinas": "rectas"
     },
     {
-      "id": 3,
-      "titulo": "Brand Book",
-      "imagen": "../fotos/brandbook.webp",
-      "descripcion": "ClientMetrica identity manual",
-      "textoOverlay": "Client Metrica Brandbook",
-      "paginaUrl": "proyecto-brandbook.html",
-      "detalles": {
-        "overview": "Complete development of the visual identity manual for Client Metrica. This project spans from brand conceptualization to the implementation of a cohesive design system that reflects the company's values and vision.",
-        "especificaciones": [
-          "Corporate identity manual",
-          "Color and typography system",
-          "Brand applications",
-          "Usage guidelines",
-          "Digital and print assets"
-        ],
-        "media": [
-          { "tipo": "imagen", "src": "../fotos/brandbook.webp", "alt": "Brandbook project" },
-          { "tipo": "imagen", "src": "../fotos/colores.webp", "alt": "Color system" },
-          { "tipo": "imagen", "src": "../fotos/tipografia.webp", "alt": "Typography" },
-          { "tipo": "imagen", "src": "../fotos/instagram.webp", "alt": "Instagram application" }
-        ],
-        "nextProject": "proyecto-ultika.html"
-      }
-    },
-    {
-      "id": 4,
+      "id": 8,
       "titulo": "Ultika",
       "imagen": "../fotos/ultika.webp",
       "descripcion": "Energy-insulating biomaterial",
@@ -96,15 +113,28 @@
           "Results presentation"
         ],
         "media": [
-          { "tipo": "imagen", "src": "../fotos/ultika.webp", "alt": "Ultika project" },
-          { "tipo": "imagen", "src": "../fotos/explicacion.webp", "alt": "Ultika explanation" },
-          { "tipo": "imagen", "src": "../fotos/futuro.webp", "alt": "Future applications" }
+          {
+            "tipo": "imagen",
+            "src": "../fotos/ultika.webp",
+            "alt": "Ultika project"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/explicacion.webp",
+            "alt": "Ultika explanation"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/futuro.webp",
+            "alt": "Future applications"
+          }
         ],
-        "nextProject": "proyecto-kaiko.html"
-      }
+        "nextProject": ""
+      },
+      "esquinas": "rectas"
     },
     {
-      "id": 5,
+      "id": 9,
       "titulo": "Kaiko",
       "imagen": "../fotos/kaiko.webp",
       "descripcion": "Sustainable textile design",
@@ -120,41 +150,994 @@
           "Process documentation"
         ],
         "media": [
-          { "tipo": "imagen", "src": "../fotos/kaiko.webp", "alt": "Kaiko project" },
-          { "tipo": "imagen", "src": "../fotos/total1.webp", "alt": "Kaiko view 1" },
-          { "tipo": "imagen", "src": "../fotos/total2.webp", "alt": "Kaiko view 2" },
-          { "tipo": "imagen", "src": "../fotos/detalle1.webp", "alt": "Detail 1" },
-          { "tipo": "imagen", "src": "../fotos/detalle2.webp", "alt": "Detail 2" }
+          {
+            "tipo": "imagen",
+            "src": "../fotos/kaiko.webp",
+            "alt": "Kaiko project"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/total1.webp",
+            "alt": "Kaiko view 1"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/total2.webp",
+            "alt": "Kaiko view 2"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/detalle1.webp",
+            "alt": "Detail 1"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/detalle2.webp",
+            "alt": "Detail 2"
+          }
         ],
-        "nextProject": "proyecto-seacure.html"
+        "nextProject": ""
+      },
+      "esquinas": "rectas"
+    },
+    {
+      "id": 2,
+      "titulo": "Clientmetrica",
+      "imagen": "../fotos/brandbook.webp",
+      "descripcion": "Brand identity and website",
+      "textoOverlay": "Clientmetrica",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Visual identity manual for Clientmetrica, a data analytics and AI automation company: logo, primary and secondary color palette, permitted and prohibited uses, and photography guidelines for its digital pieces. I also designed and developed its website.",
+        "especificaciones": [
+          "Corporate identity manual",
+          "Logo and primary and secondary palette",
+          "Permitted and prohibited uses",
+          "Photography guidelines",
+          "Application on social media",
+          "Website design and development"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "../fotos/brandbook.webp",
+            "alt": "Brand book",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/clientmetrica-marca.jpeg",
+            "alt": "Clientmetrica brand manual",
+            "w": 1600,
+            "h": 900
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/colores.webp",
+            "alt": "Color system",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/tipografia.webp",
+            "alt": "Typography",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/instagram.webp",
+            "alt": "Instagram application",
+            "w": 2606,
+            "h": 1338
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/clientmetrica-web-1.webp",
+            "alt": "Website: home",
+            "w": 2000,
+            "h": 953
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/clientmetrica-web-2.webp",
+            "alt": "Website: AI agents",
+            "w": 2000,
+            "h": 940
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/clientmetrica-web-3.webp",
+            "alt": "Website: cybersecurity",
+            "w": 2000,
+            "h": 987
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/clientmetrica-web-4.webp",
+            "alt": "Website: service catalog",
+            "w": 2000,
+            "h": 986
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "mosaico": {
+        "columnas": 2,
+        "sinAncho": true
+      },
+      "fijo": {
+        "n": 2,
+        "items": [
+          [
+            0,
+            0,
+            1,
+            0.0
+          ],
+          [
+            1,
+            0,
+            1,
+            0.5343
+          ],
+          [
+            2,
+            1,
+            1,
+            0.5343
+          ],
+          [
+            3,
+            0,
+            1,
+            1.1177
+          ],
+          [
+            4,
+            1,
+            1,
+            1.652
+          ],
+          [
+            5,
+            0,
+            1,
+            2.1864
+          ],
+          [
+            6,
+            1,
+            1,
+            2.1864
+          ],
+          [
+            7,
+            0,
+            1,
+            2.6838
+          ],
+          [
+            8,
+            0,
+            1,
+            3.1982
+          ]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Microcine.tv",
+      "imagen": "../fotos/microcine-hero.jpg",
+      "descripcion": "Social media with illustrations",
+      "textoOverlay": "Microcine.tv",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Content for the Instagram and TikTok of Microcine.tv, a short film platform. I designed Michicine, the mascot, with its color system and expressions, and used it as the thread of illustrated stories, tutorials and seasonal campaigns.",
+        "especificaciones": [
+          "Character design",
+          "Michicine's origin story",
+          "Illustration and layout of carousels",
+          "Step-by-step platform tutorial",
+          "Seasonal campaigns (Fiestas Patrias, holidays)"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-asi-1.webp",
+            "alt": "How Michicine was born, slide 1",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-asi-3.webp",
+            "alt": "How Michicine was born, slide 3",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/mc-reel-michicine.mp4",
+            "poster": "../fotos/v/mc-reel-michicine.jpg",
+            "alt": "Michicine reel",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-asi-5.webp",
+            "alt": "How Michicine was born, slide 5",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-asi-7.webp",
+            "alt": "How Michicine was born, slide 7",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-tut-1.webp",
+            "alt": "Tutorial: meet Michicine",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-tut-2.webp",
+            "alt": "Tutorial: first step",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-tut-3.webp",
+            "alt": "Tutorial: second step",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/mc-reel-evento.mp4",
+            "poster": "../fotos/v/mc-reel-evento.jpg",
+            "alt": "Launch event reel",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-tut-4.webp",
+            "alt": "Tutorial: third step",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-cortos-1.webp",
+            "alt": "Free short film recommendations",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-cortos-2.webp",
+            "alt": "Free shorts to watch",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-camp-1.webp",
+            "alt": "Fiestas Patrias campaign",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-camp-2.webp",
+            "alt": "Fiestas Patrias campaign",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-camp-3.webp",
+            "alt": "Fiestas Patrias campaign",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/mc-conc-1.webp",
+            "alt": "Fiestas Patrias contest",
+            "w": 1080,
+            "h": 1350
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "fijo": {
+        "n": 4,
+        "items": [
+          [
+            0,
+            0,
+            1,
+            0.0
+          ],
+          [
+            1,
+            1,
+            1,
+            0.0
+          ],
+          [
+            2,
+            2,
+            1,
+            0.0
+          ],
+          [
+            3,
+            3,
+            1,
+            0.0
+          ],
+          [
+            4,
+            0,
+            1,
+            1.2927
+          ],
+          [
+            5,
+            3,
+            1,
+            1.2927
+          ],
+          [
+            6,
+            2,
+            1,
+            1.8201
+          ],
+          [
+            7,
+            3,
+            1,
+            2.5854
+          ],
+          [
+            8,
+            1,
+            1,
+            2.6067
+          ],
+          [
+            9,
+            0,
+            1,
+            4.0457
+          ],
+          [
+            11,
+            2,
+            1,
+            4.4055
+          ],
+          [
+            12,
+            1,
+            1,
+            4.4268
+          ],
+          [
+            13,
+            3,
+            1,
+            5.1707
+          ],
+          [
+            14,
+            0,
+            1,
+            5.3384
+          ],
+          [
+            15,
+            2,
+            1,
+            7.0122
+          ],
+          [
+            10,
+            1,
+            1,
+            5.7195
+          ]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Dactilar",
+      "imagen": "../fotos/dactilar-web-1.webp",
+      "descripcion": "Logo, colors and website",
+      "textoOverlay": "Dactilar",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Brand identity and website for Dactilar, an architecture and construction company. The isotype joins a house with a fingerprint, an idea that repeats in its message: design, build and leave a mark in every project.",
+        "especificaciones": [
+          "Logo and isotype",
+          "Color palette",
+          "Website design",
+          "Web development"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "../fotos/dactilar-logo.png",
+            "alt": "Dactilar logo"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/dactilar-web-1.webp",
+            "alt": "Website: home"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/dactilar-web-2.webp",
+            "alt": "Website: featured projects"
+          }
+        ]
+      },
+      "esquinas": "rectas"
+    },
+    {
+      "id": 7,
+      "titulo": "Cumplo",
+      "imagen": "../fotos/cumplo-fotos.webp",
+      "descripcion": "Social media and lanyard",
+      "textoOverlay": "Cumplo",
+      "paginaUrl": "",
+      "detalles": {
+        "overview": "Work for Cumplo, a fintech: the Instagram communication plan for Cumplo Perú (posts, weekly stories and key-date stories) and the design of the corporate lanyard with its cards, made for the whole company.",
+        "especificaciones": [
+          "1080 × 1080 carousels for Cumplo Perú",
+          "Weekly stories system, 1080 × 1920",
+          "Key-date stories",
+          "Corporate lanyard and cards for the whole company"
+        ],
+        "media": [
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-car-1.webp",
+            "alt": "Presentation carousel",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-car-2.webp",
+            "alt": "Presentation carousel",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-foto-1.webp",
+            "alt": "Post with photography",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-foto-2.webp",
+            "alt": "Post with photography",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-texto-1.webp",
+            "alt": "Text post",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-texto-3.webp",
+            "alt": "Word search",
+            "w": 1080,
+            "h": 1080
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-sem-1.webp",
+            "alt": "Monday story",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-sem-3.webp",
+            "alt": "Wednesday story",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-sem-5.webp",
+            "alt": "Friday story",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-fecha-1.webp",
+            "alt": "End-of-month story",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-fecha-2.webp",
+            "alt": "Payday story",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-fecha-3.webp",
+            "alt": "Sign up and invest story",
+            "w": 1080,
+            "h": 1920
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-lanyard.webp",
+            "alt": "Cumplo lanyard",
+            "w": 1080,
+            "h": 555
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/cu-tarjetas.webp",
+            "alt": "Corporate cards",
+            "w": 1080,
+            "h": 555
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "fijo": {
+        "n": 4,
+        "items": [
+          [
+            0,
+            3,
+            1,
+            5.1829
+          ],
+          [
+            1,
+            1,
+            1,
+            0.0
+          ],
+          [
+            2,
+            2,
+            1,
+            0.0
+          ],
+          [
+            3,
+            3,
+            1,
+            0.0
+          ],
+          [
+            4,
+            0,
+            1,
+            1.0427
+          ],
+          [
+            5,
+            1,
+            1,
+            1.0427
+          ],
+          [
+            6,
+            3,
+            1,
+            1.0427
+          ],
+          [
+            7,
+            2,
+            1,
+            1.8902
+          ],
+          [
+            8,
+            1,
+            1,
+            2.0854
+          ],
+          [
+            9,
+            2,
+            1,
+            3.7104
+          ],
+          [
+            10,
+            0,
+            1,
+            3.8902
+          ],
+          [
+            11,
+            3,
+            1,
+            3.0488
+          ],
+          [
+            12,
+            0,
+            2,
+            5.7256
+          ],
+          [
+            13,
+            0,
+            2,
+            6.8201
+          ]
+        ]
       }
     },
     {
       "id": 6,
-      "titulo": "Seacure",
-      "imagen": "../fotos/shelly.webp",
-      "descripcion": "Secondary packaging biomaterial",
-      "textoOverlay": "Seacure: secondary packaging",
-      "paginaUrl": "proyecto-seacure.html",
+      "titulo": "Pro Cine",
+      "imagen": "../fotos/procine-logo-oscuro.jpg",
+      "descripcion": "Brand identity and social media",
+      "textoOverlay": "Pro Cine",
+      "paginaUrl": "",
       "detalles": {
-        "overview": "Seacure is a sustainable packaging project that uses biomaterials to create secondary packaging solutions. The project explores eco-friendly alternatives without compromising product protection and presentation.",
+        "overview": "Identity and content for Pro Cine, an audiovisual production company. I redesigned the isotype, defined the palette by subarea and built the brand manual; then I designed its Instagram and TikTok content applying that identity.",
         "especificaciones": [
-          "Biomaterial development for packaging",
-          "Secondary packaging design",
-          "Concept moodboard",
-          "Product mockups",
-          "Resistance testing"
+          "Isotype redesign",
+          "Complete brand manual",
+          "Carousels and posts for Instagram",
+          "Reel editing and covers"
         ],
         "media": [
-          { "tipo": "imagen", "src": "../fotos/shelly.webp", "alt": "Seacure project" },
-          { "tipo": "imagen", "src": "../fotos/moodboard.webp", "alt": "Seacure moodboard" },
-          { "tipo": "imagen", "src": "../fotos/mockup.webp", "alt": "Seacure mockup" }
-        ],
-        "nextProject": "proyecto-nokia.html"
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-logo-claro.webp",
+            "alt": "Logo, light version",
+            "w": 1393,
+            "h": 983
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-logo-oscuro.webp",
+            "alt": "Logo, dark version",
+            "w": 1393,
+            "h": 983
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-usos-1.webp",
+            "alt": "Permitted uses",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-usos-2.webp",
+            "alt": "Prohibited uses",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-color-1.webp",
+            "alt": "Primary colors",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-color-2.webp",
+            "alt": "Secondary color",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-color-3.webp",
+            "alt": "Colors by area",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-tipo-1.webp",
+            "alt": "Brand typography",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-tipo-2.webp",
+            "alt": "Logo typography",
+            "w": 1080,
+            "h": 1398
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/pc-reel-logo.mp4",
+            "poster": "../fotos/v/pc-reel-logo.jpg",
+            "alt": "New logo presentation reel",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/pc-reel-marcas.mp4",
+            "poster": "../fotos/v/pc-reel-marcas.jpg",
+            "alt": "Reel: brand content",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-quienes-1.webp",
+            "alt": "Carousel: who we are",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-quienes-2.webp",
+            "alt": "Carousel: who we are",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-quienes-3.webp",
+            "alt": "Carousel: who we are",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-quienes-4.webp",
+            "alt": "Carousel: who we are",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/pc-reel-sonido.mp4",
+            "poster": "../fotos/v/pc-reel-sonido.jpg",
+            "alt": "Reel: sound recording",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/pc-reel-foto.mp4",
+            "poster": "../fotos/v/pc-reel-foto.jpg",
+            "alt": "Reel: photography",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-peli-1.webp",
+            "alt": "Carousel: films that inspire us",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-peli-2.webp",
+            "alt": "Films of the 90s",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-peli-3.webp",
+            "alt": "Films of the 90s",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/p/pc-peli-6.webp",
+            "alt": "Films of the 90s",
+            "w": 1080,
+            "h": 1350
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/pc-reel-redes.mp4",
+            "poster": "../fotos/v/pc-reel-redes.jpg",
+            "alt": "Reel: social media",
+            "w": 576,
+            "h": 1024
+          },
+          {
+            "tipo": "video",
+            "src": "../fotos/v/pc-reel-publicidad.mp4",
+            "poster": "../fotos/v/pc-reel-publicidad.jpg",
+            "alt": "Reel: advertising videos",
+            "w": 576,
+            "h": 1024
+          }
+        ]
+      },
+      "galeria": "mosaico",
+      "fijo": {
+        "n": 4,
+        "items": [
+          [
+            0,
+            0,
+            1,
+            0.0
+          ],
+          [
+            1,
+            1,
+            1,
+            0.0
+          ],
+          [
+            9,
+            2,
+            1,
+            2.6738
+          ],
+          [
+            10,
+            3,
+            1,
+            3.6067
+          ],
+          [
+            11,
+            1,
+            1,
+            3.6372
+          ],
+          [
+            12,
+            2,
+            1,
+            4.4939
+          ],
+          [
+            13,
+            0,
+            1,
+            4.9604
+          ],
+          [
+            14,
+            3,
+            1,
+            5.4268
+          ],
+          [
+            15,
+            2,
+            1,
+            5.7866
+          ],
+          [
+            16,
+            0,
+            1,
+            6.253
+          ],
+          [
+            17,
+            1,
+            1,
+            6.2835
+          ],
+          [
+            18,
+            1,
+            1,
+            7.5762
+          ],
+          [
+            19,
+            2,
+            1,
+            7.6067
+          ],
+          [
+            20,
+            3,
+            1,
+            8.247
+          ],
+          [
+            21,
+            1,
+            1,
+            8.8689
+          ],
+          [
+            2,
+            2,
+            1,
+            0.0
+          ],
+          [
+            3,
+            0,
+            1,
+            0.747
+          ],
+          [
+            4,
+            2,
+            1,
+            1.3384
+          ],
+          [
+            5,
+            0,
+            1,
+            2.0854
+          ],
+          [
+            6,
+            3,
+            1,
+            2.2713
+          ],
+          [
+            7,
+            1,
+            1,
+            2.2988
+          ],
+          [
+            8,
+            3,
+            1,
+            9.5396
+          ],
+          [
+            22,
+            0,
+            1,
+            8.0732
+          ]
+        ]
       }
     },
     {
-      "id": 7,
+      "id": 10,
       "titulo": "Nokia 2660 Flip Phone",
       "imagen": "../fotos/flip.webp",
       "descripcion": "3D modeling",
@@ -170,34 +1153,25 @@
           "Product presentation"
         ],
         "media": [
-          { "tipo": "video", "src": "../fotos/celular.mp4", "alt": "Nokia 3D video" },
-          { "tipo": "imagen", "src": "../fotos/espaciado.webp", "alt": "Nokia spacing" },
-          { "tipo": "imagen", "src": "../fotos/vistas.webp", "alt": "Nokia technical views" }
+          {
+            "tipo": "video",
+            "src": "../fotos/celular.mp4",
+            "alt": "Nokia 3D video"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/espaciado.webp",
+            "alt": "Nokia spacing"
+          },
+          {
+            "tipo": "imagen",
+            "src": "../fotos/vistas.webp",
+            "alt": "Nokia technical views"
+          }
         ],
-        "nextProject": "proyecto-lanyard.html"
-      }
-    },
-    {
-      "id": 8,
-      "titulo": "Lanyard Cumplo",
-      "imagen": "../fotos/lanyard.webp",
-      "descripcion": "Corporate lanyard",
-      "textoOverlay": "Corporate lanyard for Cumplo",
-      "paginaUrl": "proyecto-lanyard.html",
-      "detalles": {
-        "overview": "Corporate lanyard design for the company Cumplo. This project includes the development of the visual identity for the lanyard and complementary cards, maintaining consistency with the corporate brand.",
-        "especificaciones": [
-          "Corporate lanyard design",
-          "Card system",
-          "Brand identity application",
-          "Production and materials"
-        ],
-        "media": [
-          { "tipo": "imagen", "src": "../fotos/lanyard.webp", "alt": "Lanyard Cumplo" },
-          { "tipo": "imagen", "src": "../fotos/tarjetas.webp", "alt": "Corporate cards" }
-        ],
-        "nextProject": "proyecto-orbita.html"
-      }
+        "nextProject": ""
+      },
+      "esquinas": "rectas"
     }
   ],
   "navegacion": []
